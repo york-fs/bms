@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ae4a7653-8e6d-4e05-b144-1e5e3b2092b7")
+	(paper "A4")
+	(title_block
+		(title "Battery Management System")
+		(date "2025-02-04")
+		(rev "1")
+		(company "York Formula Student")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -6502,16 +6502,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 144.78 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a198abd5-b721-4f9f-9fcc-232e4de868bf")
-	)
-	(wire
-		(pts
 			(xy 167.64 149.86) (xy 161.29 149.86)
 		)
 		(stroke
@@ -6852,16 +6842,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 127 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c914336f-5f94-431e-93b0-8c31a638f01b")
-	)
-	(wire
-		(pts
 			(xy 151.13 132.08) (xy 151.13 133.35)
 		)
 		(stroke
@@ -6939,16 +6919,6 @@
 			(type default)
 		)
 		(uuid "ce9b1530-e10f-42ec-9eca-4ca5ca3697ea")
-	)
-	(wire
-		(pts
-			(xy 124.46 86.36) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf18e126-7809-4b50-a60b-290c9411b0a2")
 	)
 	(wire
 		(pts
@@ -7069,16 +7039,6 @@
 			(type default)
 		)
 		(uuid "d8b71e34-2dbc-493b-bd0b-50a3721f6926")
-	)
-	(wire
-		(pts
-			(xy 125.73 82.55) (xy 127 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b89b0e-8af2-491d-9722-66e75deab9e6")
 	)
 	(wire
 		(pts
@@ -8594,50 +8554,6 @@
 			)
 		)
 	)
-	(global_label "BA1"
-		(shape input)
-		(at 144.78 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "ce27f449-c72a-48e8-84b5-c523b7a2afc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9398 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TAP1"
-		(shape input)
-		(at 125.73 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "cf684394-7b19-4d44-9726-cb35d74af345")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.8083 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape input)
 		(at 147.32 165.1 0)
@@ -9866,73 +9782,6 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b565101-3dba-4753-8088-8a2d3b8f2661")
-		(property "Reference" "#PWR039"
-			(at 124.46 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "282205b3-6e70-4cc9-9ba6-1b4efa9524fb")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17334,8 +17183,8 @@
 		)
 	)
 	(sheet
-		(at 127 80.01)
-		(size 16.51 6.35)
+		(at 66.04 85.09)
+		(size 24.13 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17344,9 +17193,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "0cf7e2e4-a4a6-4125-a4b4-8d672b9df9da")
-		(property "Sheetname" "Balance"
-			(at 127 79.2984 0)
+		(uuid "28948f48-ac92-4ccf-aa29-40bfebbeebe0")
+		(property "Sheetname" "Balancers"
+			(at 66.04 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17354,8 +17203,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "balance.kicad_sch"
-			(at 127 86.9446 0)
+		(property "Sheetfile" "balancers.kicad_sch"
+			(at 66.04 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17363,40 +17212,10 @@
 				(justify left top)
 			)
 		)
-		(pin "TAPn" input
-			(at 127 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "92bab0dd-7bcc-4039-8f3a-e48e1c29e0c3")
-		)
-		(pin "TAPn-1" input
-			(at 127 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "12b155d1-73f9-482a-840a-e9524623d0d8")
-		)
-		(pin "BAn" input
-			(at 143.51 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "10de3fb6-ec46-450c-b2a2-d9150fd46fbe")
-		)
 		(instances
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(page "2")
+					(page "3")
 				)
 			)
 		)

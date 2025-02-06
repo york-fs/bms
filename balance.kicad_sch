@@ -906,7 +906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -975,7 +975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -1044,7 +1044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 130.302 50.8 90)
 			(effects
 				(font
@@ -1063,6 +1063,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" " RPL-12K10R0FT"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -1114,7 +1123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 137.16 52.07 90)
 			(effects
 				(font

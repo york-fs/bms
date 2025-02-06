@@ -247,6 +247,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "MSOP?10*P0.5mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "MAX11163_0_0"
 			(pin input line
 				(at -2.54 -5.08 0)
@@ -1709,6 +1718,15 @@
 		)
 		(property "Description" "Ultra-High-Precision Ultra-Low-Noise Series Voltage Reference"
 			(at 1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MSOP?8*P0.65mm SOIC?8*3.9x4.9*P1.27mm"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

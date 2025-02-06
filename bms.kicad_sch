@@ -8858,7 +8858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 69.85 182.88 0)
 			(effects
 				(font
@@ -8947,7 +8947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 46.99 137.16 0)
 			(effects
 				(font
@@ -9036,7 +9036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -9257,7 +9257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 49.53 137.16 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 52.07 137.16 0)
 			(effects
 				(font
@@ -9435,7 +9435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 54.61 137.16 0)
 			(effects
 				(font
@@ -9590,7 +9590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "Crystal load capacitor"
 			(at 214.63 59.69 0)
 			(effects
 				(font
@@ -9677,7 +9677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 enable potential divider (bottom resistor)"
 			(at 63.5 57.15 0)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 46.99 182.88 0)
 			(effects
 				(font
@@ -9851,7 +9851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 switch node"
 			(at 100.33 33.02 0)
 			(effects
 				(font
@@ -9936,7 +9936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 feedback potential divider (bottom resistor)"
 			(at 88.9 57.15 0)
 			(effects
 				(font
@@ -10025,7 +10025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 64.77 137.16 0)
 			(effects
 				(font
@@ -10178,7 +10178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 77.47 182.88 0)
 			(effects
 				(font
@@ -10247,6 +10247,15 @@
 		)
 		(property "Description" "16-Bit 250ksps SAR ADC"
 			(at 170.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "ADC"
+			(at 170.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,6 +10671,15 @@
 				(hide yes)
 			)
 		)
+		(property "Role" "MAX6126 output reference decoupling"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75134d29-bdfa-41e1-aa47-c8b271a88864")
 		)
@@ -10806,7 +10824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -11023,7 +11041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "Vbatt to 3V3 buck converter"
 			(at 68.58 43.18 0)
 			(effects
 				(font
@@ -11315,6 +11333,15 @@
 				(hide yes)
 			)
 		)
+		(property "Role" "MAX11163 local decoupling"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3127b6db-74d0-4eb2-ad7f-b6f695bdd904")
 		)
@@ -11393,7 +11420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "Crystal load capacitor"
 			(at 204.47 59.69 0)
 			(effects
 				(font
@@ -11478,7 +11505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "STM32 HSE crystal"
 			(at 209.55 54.61 0)
 			(effects
 				(font
@@ -11547,6 +11574,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 152.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "MAX14920 AOUT filtering"
 			(at 152.4 152.4 0)
 			(effects
 				(font
@@ -11631,7 +11667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 boost capacitor series resistor"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -11787,7 +11823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "Main STM32 processor"
 			(at 243.84 67.31 0)
 			(effects
 				(font
@@ -12279,7 +12315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 switch node ground"
 			(at 115.57 33.02 0)
 			(effects
 				(font
@@ -12365,7 +12401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -12650,7 +12686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "Buck inductor"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -12803,7 +12839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 62.23 182.88 0)
 			(effects
 				(font
@@ -12890,7 +12926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 enable potential divider (top resistor)"
 			(at 63.5 49.53 0)
 			(effects
 				(font
@@ -12976,7 +13012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 92.71 182.88 0)
 			(effects
 				(font
@@ -13330,7 +13366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX11163 local decoupling"
 			(at 106.68 116.84 0)
 			(effects
 				(font
@@ -13573,7 +13609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 44.45 137.16 0)
 			(effects
 				(font
@@ -13728,7 +13764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 output decoupling"
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -13817,7 +13853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -13903,7 +13939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 snubber resistor"
 			(at 105.41 35.56 0)
 			(effects
 				(font
@@ -14190,7 +14226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 54.61 182.88 0)
 			(effects
 				(font
@@ -14363,7 +14399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 107.95 182.88 0)
 			(effects
 				(font
@@ -14450,7 +14486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX6126 noise reduction"
 			(at 138.43 128.27 0)
 			(effects
 				(font
@@ -14535,7 +14571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "Cell measurement analog frontend"
 			(at -46.99 160.02 0)
 			(effects
 				(font
@@ -14807,7 +14843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 100.33 182.88 0)
 			(effects
 				(font
@@ -14896,7 +14932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -15039,6 +15075,15 @@
 				(hide yes)
 			)
 		)
+		(property "Role" "Voltage reference"
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ed01d1c6-7194-41cd-a60e-ca063c540169")
 		)
@@ -15127,7 +15172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 snubber capacitor"
 			(at 111.76 35.56 0)
 			(effects
 				(font
@@ -15213,7 +15258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 feedback potential divider (top resistor)"
 			(at 96.52 53.34 0)
 			(effects
 				(font
@@ -15301,7 +15346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 output decoupling"
 			(at 104.14 57.15 0)
 			(effects
 				(font
@@ -15453,7 +15498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 bulk input decoupling"
 			(at 33.02 49.53 0)
 			(effects
 				(font
@@ -15541,7 +15586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 Vanalog local decoupling"
 			(at 19.05 173.99 0)
 			(effects
 				(font
@@ -15752,6 +15797,15 @@
 				(hide yes)
 			)
 		)
+		(property "Role" "MAX14920 AOUT filtering"
+			(at 160.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0c5c1ba-1489-4196-a00a-1b0adde8c205")
 		)
@@ -15814,6 +15868,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "MAX6126 local decoupling"
 			(at 116.84 116.84 0)
 			(effects
 				(font
@@ -16031,7 +16094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 123.19 182.88 0)
 			(effects
 				(font
@@ -16118,7 +16181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 41.91 137.16 0)
 			(effects
 				(font
@@ -16203,7 +16266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 boost capacitor"
 			(at 96.52 45.72 0)
 			(effects
 				(font
@@ -16291,7 +16354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 output decoupling"
 			(at 113.03 57.15 0)
 			(effects
 				(font
@@ -16379,7 +16442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 AOUT"
 			(at 147.32 151.13 0)
 			(effects
 				(font
@@ -16660,7 +16723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample resistor"
 			(at 69.85 137.16 0)
 			(effects
 				(font
@@ -16747,7 +16810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 Vin local decoupling"
 			(at 26.67 149.86 0)
 			(effects
 				(font
@@ -16833,7 +16896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 115.57 182.88 0)
 			(effects
 				(font
@@ -16920,7 +16983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 Vlogic local decoupling"
 			(at 25.4 173.99 0)
 			(effects
 				(font
@@ -17006,7 +17069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "MAX14920 sample capacitor"
 			(at 39.37 182.88 0)
 			(effects
 				(font
@@ -17161,7 +17224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "Regulated 3V3 output"
 			(at 120.65 48.26 0)
 			(effects
 				(font

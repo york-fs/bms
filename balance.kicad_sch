@@ -942,6 +942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "0603WAF3001T5E"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46c35891-9e4c-4a8f-a3c4-6ace683f1dbd")
 		)

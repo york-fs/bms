@@ -5115,6 +5115,12 @@
 		(uuid "15a90831-23c4-4360-8625-5a5d3f108422")
 	)
 	(junction
+		(at 165.1 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aae61fb-fc79-498b-b390-618fec678db5")
+	)
+	(junction
 		(at 43.18 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5281,6 +5287,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b09539aa-e820-4c91-b467-ef6eac362f7d")
+	)
+	(junction
+		(at 165.1 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baaa2d20-3bf2-4ad3-a333-997cfd7ff48d")
 	)
 	(junction
 		(at 33.02 45.72)
@@ -5700,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 125.73) (xy 173.99 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209ac81e-99cb-4b9f-93dc-aa524979f75a")
+	)
+	(wire
+		(pts
 			(xy 224.79 87.63) (xy 226.06 87.63)
 		)
 		(stroke
@@ -5967,6 +5989,16 @@
 			(type default)
 		)
 		(uuid "36d844ff-2e26-465a-a415-dc01f39f9376")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 173.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383658e0-b9c2-4e18-9d2b-747acde2cbba")
 	)
 	(wire
 		(pts
@@ -6710,6 +6742,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 132.08) (xy 173.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7d9892-517d-400c-9114-235eddec06b7")
+	)
+	(wire
+		(pts
 			(xy 224.79 39.37) (xy 226.06 39.37)
 		)
 		(stroke
@@ -6987,6 +7029,16 @@
 			(type default)
 		)
 		(uuid "b563c2c1-2ce5-437f-97d2-4a7d358d4df9")
+	)
+	(wire
+		(pts
+			(xy 165.1 132.08) (xy 165.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c33356-312d-4d82-a8fa-14b0783e686d")
 	)
 	(wire
 		(pts
@@ -7297,6 +7349,16 @@
 			(type default)
 		)
 		(uuid "d0fa6473-c3c2-43c2-bf75-a495e26a5bbe")
+	)
+	(wire
+		(pts
+			(xy 173.99 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1519d32-ea50-4160-ae2e-53148f03a66b")
 	)
 	(wire
 		(pts
@@ -9384,7 +9446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 46.99 137.16 0)
 			(effects
 				(font
@@ -9537,7 +9599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 59.69 137.16 0)
 			(effects
 				(font
@@ -9758,7 +9820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 49.53 137.16 0)
 			(effects
 				(font
@@ -9847,7 +9909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 52.07 137.16 0)
 			(effects
 				(font
@@ -9936,7 +9998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 54.61 137.16 0)
 			(effects
 				(font
@@ -10526,7 +10588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 64.77 137.16 0)
 			(effects
 				(font
@@ -11154,7 +11216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -11182,6 +11244,15 @@
 			)
 		)
 		(property "Role" "MAX6126 output reference decoupling"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM31CR71C106KA12L"
 			(at 165.1 128.27 0)
 			(effects
 				(font
@@ -11420,6 +11491,85 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 173.99 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3868ef23-1112-4e6d-a38e-c10059a3d9cb")
+		(property "Reference" "C32"
+			(at 176.53 127.0062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 176.53 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "MAX6126 output reference decoupling"
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cc23c87-ad57-40d6-b2a4-f57c0c774e0f")
+		)
+		(pin "2"
+			(uuid "e5a2c550-322f-4712-97c0-915e97eac258")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -13030,7 +13180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -13065,7 +13215,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 132.08 0)
+		(at 165.1 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13074,7 +13224,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cd0b725-9b03-4199-8816-9a5dc51f26ea")
 		(property "Reference" "#PWR034"
-			(at 165.1 138.43 0)
+			(at 165.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13083,7 +13233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 137.16 0)
+			(at 165.1 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13092,7 +13242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 132.08 0)
+			(at 165.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13101,7 +13251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 132.08 0)
+			(at 165.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,7 +13260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 132.08 0)
+			(at 165.1 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,7 +14360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 43.18 49.53 0)
 			(effects
 				(font
@@ -14237,7 +14387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "GRM32ER72A225KA35"
 			(at 43.18 49.53 0)
 			(effects
 				(font
@@ -14246,7 +14396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 input decoupling"
 			(at 43.18 49.53 0)
 			(effects
 				(font
@@ -14326,7 +14476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 44.45 137.16 0)
 			(effects
 				(font
@@ -14570,7 +14720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -15003,7 +15153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 53.34 49.53 0)
 			(effects
 				(font
@@ -15030,7 +15180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "GRM31C5C2A104JA01L"
 			(at 53.34 49.53 0)
 			(effects
 				(font
@@ -15039,7 +15189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" ""
+		(property "Role" "LMR51610 input decoupling"
 			(at 53.34 49.53 0)
 			(effects
 				(font
@@ -15649,7 +15799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -16898,7 +17048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 41.91 137.16 0)
 			(effects
 				(font
@@ -17504,7 +17654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "0603WAF3001T5E"
 			(at 69.85 137.16 0)
 			(effects
 				(font
@@ -17546,7 +17696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f46b6e91-539f-4f35-8c93-a7278090516d")
-		(property "Reference" "C9999"
+		(property "Reference" "C23"
 			(at 24.13 148.5962 0)
 			(effects
 				(font
@@ -17564,7 +17714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 26.67 149.86 0)
 			(effects
 				(font
@@ -17591,7 +17741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "GRM31C5C2A104JA01L"
 			(at 26.67 149.86 0)
 			(effects
 				(font
@@ -17618,7 +17768,7 @@
 		(instances
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "C9999")
+					(reference "C23")
 					(unit 1)
 				)
 			)

@@ -6706,6 +6706,12 @@
 		(uuid "b09539aa-e820-4c91-b467-ef6eac362f7d")
 	)
 	(junction
+		(at 58.42 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b129b70c-77ec-41ce-a669-1815a490843d")
+	)
+	(junction
 		(at 26.67 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6746,6 +6752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccb14d6e-49ca-42cf-8be8-e83866086bdc")
+	)
+	(junction
+		(at 229.87 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d035ebb1-5148-4e4a-b6e4-efb126ac1094")
 	)
 	(junction
 		(at 128.27 182.88)
@@ -7056,6 +7068,16 @@
 			(type default)
 		)
 		(uuid "1277f2de-c1ec-4b7a-82e5-aa012022f10c")
+	)
+	(wire
+		(pts
+			(xy 58.42 44.45) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13661c55-7feb-46b5-a4ae-5eb070fd34e9")
 	)
 	(wire
 		(pts
@@ -8029,6 +8051,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 123.19) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c7156d-8b5e-4fb6-82ed-d9aba3169ef0")
+	)
+	(wire
+		(pts
 			(xy 189.23 146.05) (xy 189.23 147.32)
 		)
 		(stroke
@@ -8226,6 +8258,16 @@
 			(type default)
 		)
 		(uuid "5fbbb5d6-0304-48fe-8502-96dffeacb373")
+	)
+	(wire
+		(pts
+			(xy 229.87 24.13) (xy 229.87 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fdb56e2-602f-4b5e-8295-0a35eb665a24")
 	)
 	(wire
 		(pts
@@ -8709,7 +8751,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 45.72) (xy 63.5 45.72)
+			(xy 53.34 45.72) (xy 58.42 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9949,16 +9991,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 123.19) (xy 193.04 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1519d32-ea50-4160-ae2e-53148f03a66b")
-	)
-	(wire
-		(pts
 			(xy 186.69 77.47) (xy 207.01 77.47)
 		)
 		(stroke
@@ -9996,6 +10028,16 @@
 			(type default)
 		)
 		(uuid "d5ea5009-e345-4bd5-88a1-81540babecc7")
+	)
+	(wire
+		(pts
+			(xy 193.04 121.92) (xy 193.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60bce22-5ddf-45d5-a2f6-5ef54261d5ad")
 	)
 	(wire
 		(pts
@@ -10516,6 +10558,16 @@
 			(type default)
 		)
 		(uuid "f5e00824-263d-4eff-9d4a-08a18c43a7c4")
+	)
+	(wire
+		(pts
+			(xy 58.42 45.72) (xy 63.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fab558-8216-4b8f-810c-524bccd2fa05")
 	)
 	(wire
 		(pts
@@ -13360,6 +13412,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.04 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "219ce1d9-b9b4-4c39-a7ef-880c23509222")
+		(property "Reference" "TP7"
+			(at 191.3288 116.3364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 195.58 119.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "Analog reference"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4017f1df-f8f2-4f23-80a1-33afe3f3f82c")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 64.77 137.16 180)
 		(unit 1)
@@ -13510,6 +13647,91 @@
 			(project ""
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "263e0b76-3b9f-4b72-b3b4-dd40f17c3699")
+		(property "Reference" "TP6"
+			(at 228.1588 18.5464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 232.41 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 234.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 229.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "STM32 power rail"
+			(at 229.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c6033f1-9835-46c5-a3ed-0f0281d1bd24")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15228,6 +15450,91 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "484461d7-8d3b-4847-96a7-88886fc4eed1")
+		(property "Reference" "TP5"
+			(at 56.7088 38.8664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "LMR51610 input"
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "986857ae-9458-486e-b306-5e0c5fc5cd2a")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

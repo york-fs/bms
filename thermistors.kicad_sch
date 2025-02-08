@@ -1898,7 +1898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PUD_S20B-PUDSS-1_2x10_P2.00mm_Horizontal"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -1917,6 +1917,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "S20B-PUDSS-1"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -2107,7 +2116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PUD_S20B-PUDSS-1_2x10_P2.00mm_Horizontal"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -2126,6 +2135,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "S20B-PUDSS-1"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -2229,7 +2247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PUD_S20B-PUDSS-1_2x10_P2.00mm_Horizontal"
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -2248,6 +2266,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "S20B-PUDSS-1"
 			(at 139.7 120.65 0)
 			(effects
 				(font

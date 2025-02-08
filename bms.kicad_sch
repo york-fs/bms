@@ -8425,6 +8425,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 137.16) (xy 30.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ea5efc-4d76-498b-8c20-e897785592ec")
+	)
+	(wire
+		(pts
 			(xy 106.68 138.43) (xy 107.95 138.43)
 		)
 		(stroke
@@ -14389,7 +14399,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 30.48 143.51 0)
+		(at 30.48 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14397,7 +14407,7 @@
 		(dnp no)
 		(uuid "3af15205-cabd-46bb-acba-ad5efefd7e39")
 		(property "Reference" "#PWR025"
-			(at 30.48 147.32 0)
+			(at 30.48 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14416,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 30.48 139.7 0)
+			(at 30.48 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14414,7 +14424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 143.51 0)
+			(at 30.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14423,7 +14433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 143.51 0)
+			(at 30.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14432,7 +14442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 30.48 143.51 0)
+			(at 30.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22584,6 +22594,84 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 30.48 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1f72782-0c93-4674-8ba5-2cd1deccb383")
+		(property "Reference" "R76"
+			(at 29.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 29.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "MAX14920 inrush limit"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f99d222-90b1-4972-90b2-0ee5c2dd6eb3")
+		)
+		(pin "2"
+			(uuid "3fcd3170-0425-403a-a8c9-fe74404da8bb")
+		)
+		(instances
+			(project ""
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
+					(reference "R76")
 					(unit 1)
 				)
 			)

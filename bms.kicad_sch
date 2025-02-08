@@ -5615,6 +5615,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -20.32 -180.34 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "MAX14920_1_1"
 				(rectangle
@@ -7088,6 +7106,16 @@
 			(type default)
 		)
 		(uuid "14560204-f2ea-4b6f-adb0-82e28eb19fd6")
+	)
+	(wire
+		(pts
+			(xy 135.89 180.34) (xy 135.89 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15863568-27f0-49f3-8388-5b7c3a6495e7")
 	)
 	(wire
 		(pts
@@ -8668,6 +8696,16 @@
 			(type default)
 		)
 		(uuid "73ad8ec3-72f8-474e-a673-36d2d346cdc0")
+	)
+	(wire
+		(pts
+			(xy 135.89 182.88) (xy 133.35 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743b498d-c95b-410b-9db4-9d3f48f4ed77")
 	)
 	(wire
 		(pts
@@ -20469,7 +20507,7 @@
 		(dnp no)
 		(uuid "a14e2123-d7b2-4bea-8a29-8e3e3fa019d3")
 		(property "Reference" "U4"
-			(at 144.78 179.07 90)
+			(at 138.43 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20477,7 +20515,7 @@
 			)
 		)
 		(property "Value" "MAX14920"
-			(at 140.97 181.61 90)
+			(at 142.24 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20720,6 +20758,9 @@
 		)
 		(pin "19"
 			(uuid "d855f741-36d5-44b2-a7f3-e820c71fee85")
+		)
+		(pin "65"
+			(uuid "25656b74-2466-4b99-95e9-a079420d0525")
 		)
 		(instances
 			(project ""

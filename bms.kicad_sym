@@ -1960,6 +1960,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -20.32 -180.34 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "MAX14920_1_1"
 			(rectangle

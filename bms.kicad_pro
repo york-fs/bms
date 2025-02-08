@@ -499,12 +499,12 @@
       "Root"
     ],
     [
-      "061afbf0-38a7-4aad-9e58-d0f3974685d1",
-      "Cell 1"
-    ],
-    [
       "28948f48-ac92-4ccf-aa29-40bfebbeebe0",
       "Balancers"
+    ],
+    [
+      "061afbf0-38a7-4aad-9e58-d0f3974685d1",
+      "Cell 1"
     ],
     [
       "8f62a6b1-c799-4e02-ae4e-ff12c4091a5b",
@@ -549,6 +549,54 @@
     [
       "ae51574f-61f5-40a8-84a4-f02d08755389",
       "Cell 12"
+    ],
+    [
+      "22f96080-372f-4edc-adbb-6967cdfa7222",
+      "Thermistors"
+    ],
+    [
+      "f122550a-f09a-4f05-9f89-cb0637def957",
+      "Onboard Group"
+    ],
+    [
+      "8f54f16c-7967-437d-a988-e231275c63ab",
+      "Cell Group 1"
+    ],
+    [
+      "fa95d462-4de0-4934-af70-5f0e8f1d034c",
+      "Cell Group 2"
+    ],
+    [
+      "9c1ee688-8492-4d78-a310-31dcbd30b38f",
+      "Cell Group 3"
+    ],
+    [
+      "7d586639-e148-4a8a-9ad9-620c1fe14641",
+      "Cell Group 4"
+    ],
+    [
+      "fa4bad2a-a064-460b-8083-ff08c7505cb9",
+      "Cell Group 5"
+    ],
+    [
+      "79ecc304-8e18-444c-9a27-bb0ae7f09105",
+      "Cell Group 6"
+    ],
+    [
+      "0d2d7204-129d-421c-bcc5-b71bb72cba95",
+      "Cell Group 7"
+    ],
+    [
+      "efd357bc-4550-47fb-96bd-8f3dacb5f594",
+      "Cell Group 8"
+    ],
+    [
+      "29137b06-2a79-41e8-a20a-ffb792999e98",
+      "Cell Group 9"
+    ],
+    [
+      "bb249f9a-39ea-44a6-9a0b-74cb85e10ca5",
+      "Cell Group 10"
     ]
   ],
   "text_variables": {}

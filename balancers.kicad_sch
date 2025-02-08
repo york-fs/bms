@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "40e5eaba-20f3-46d2-8b1f-acbc06effbd9")
 	(paper "A4")
+	(title_block
+		(title "Battery Management System")
+		(date "2025-02-08")
+		(rev "1")
+		(company "York Formula Student")
+	)
 	(lib_symbols
 		(symbol "power:+BATT"
 			(power)

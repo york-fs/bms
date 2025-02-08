@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "8ac27863-786d-4b81-83e0-c0e214df91d5")
 	(paper "A4")
+	(title_block
+		(title "Battery Management System")
+		(date "2025-02-08")
+		(rev "1")
+		(company "York Formula Student")
+	)
 	(lib_symbols
 		(symbol "Device:R_Small"
 			(pin_numbers hide)

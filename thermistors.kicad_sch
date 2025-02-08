@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "dde41b85-fec4-4b94-a913-a41176effe43")
 	(paper "A4")
+	(title_block
+		(title "Battery Management System")
+		(date "2025-02-08")
+		(rev "1")
+		(company "York Formula Student")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x10_Counter_Clockwise"
 			(pin_names

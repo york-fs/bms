@@ -503,6 +503,10 @@
       "Balancers"
     ],
     [
+      "22f96080-372f-4edc-adbb-6967cdfa7222",
+      "Thermistors"
+    ],
+    [
       "061afbf0-38a7-4aad-9e58-d0f3974685d1",
       "Cell 1"
     ],
@@ -549,10 +553,6 @@
     [
       "ae51574f-61f5-40a8-84a4-f02d08755389",
       "Cell 12"
-    ],
-    [
-      "22f96080-372f-4edc-adbb-6967cdfa7222",
-      "Thermistors"
     ],
     [
       "f122550a-f09a-4f05-9f89-cb0637def957",

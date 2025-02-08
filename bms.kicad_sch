@@ -14435,7 +14435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 255.27 109.22 0)
 			(effects
 				(font
@@ -16700,7 +16700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
 			(at 106.68 49.53 0)
 			(effects
 				(font
@@ -16727,7 +16727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "IHLP2525CZER220M1A"
 			(at 106.68 49.53 0)
 			(effects
 				(font

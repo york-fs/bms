@@ -14221,7 +14221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x13_P3.50mm_Horizontal"
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_13-G-3.81_1x13_P3.81mm_Horizontal"
 			(at 58.42 91.44 0)
 			(effects
 				(font
@@ -14248,7 +14248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "MX15EDGRC-3.5-13P-GN01-Cu-A"
+		(property "Part Number" "MX15EDGRC-3.81-13P-GN01-Cu-A"
 			(at 58.42 91.44 0)
 			(effects
 				(font

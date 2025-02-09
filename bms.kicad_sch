@@ -10887,6 +10887,16 @@
 		)
 		(uuid "f5f0678a-f441-447b-88d6-e4f5e4269ca6")
 	)
+	(label "NRST"
+		(at 252.73 87.63 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "120925c7-421c-41d6-a76d-7ba4fb84b533")
+	)
 	(label "SCL"
 		(at 209.55 73.66 0)
 		(effects
@@ -10896,6 +10906,26 @@
 			(justify left bottom)
 		)
 		(uuid "2dff6ff0-30fb-4c75-af2e-99ef0c093fa1")
+	)
+	(label "BUCK_VIN"
+		(at 38.1 39.37 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "39aace58-6262-4980-9429-ae8a40e227c4")
+	)
+	(label "AFE_VIN"
+		(at 33.02 143.51 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "67e05da5-7437-40d2-9d49-6675014f0fbb")
 	)
 	(label "SWDIO"
 		(at 252.73 85.09 0)
@@ -10956,6 +10986,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec6e8f85-b052-4de9-988f-efcd38cc2df0")
+	)
+	(label "BUCK_SW"
+		(at 81.28 43.18 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "eea29a6e-34b3-47be-8831-0bc2f093ef44")
 	)
 	(global_label "TAP2"
 		(shape output)

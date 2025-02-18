@@ -11,7 +11,7 @@
 		(company "York Formula Student")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x10_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x10_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x10_Counter_Clockwise"
+			(property "Value" "Conn_02x10_Odd_Even"
 				(at 1.27 -15.24 0)
 				(effects
 					(font
@@ -51,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,7 +78,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x10_Counter_Clockwise_1_1"
+			(symbol "Conn_02x10_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -12.573)
 					(end 0 -12.827)
@@ -329,7 +329,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -347,7 +347,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -365,7 +365,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -383,7 +383,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -419,7 +419,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -437,7 +437,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -455,7 +455,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -473,7 +473,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -491,7 +491,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -509,7 +509,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -527,7 +527,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -545,7 +545,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -563,7 +563,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -581,7 +581,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -599,7 +599,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -617,7 +617,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -635,7 +635,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -653,7 +653,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -929,23 +929,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 149.86 97.79)
+			(xy 147.32 107.95) (xy 148.59 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0360551c-5ee3-4a9e-a45a-f63fcf41c3f0")
+		(uuid "03c4a80b-1c60-4529-b4d9-74d316290573")
 	)
 	(wire
 		(pts
-			(xy 57.15 43.18) (xy 60.96 43.18)
+			(xy 115.57 92.71) (xy 116.84 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "070c0f14-1180-42f4-b7e1-704edcc66ee5")
+		(uuid "08a83b19-a105-4bf5-b461-009561a0a972")
 	)
 	(wire
 		(pts
@@ -959,43 +959,53 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 125.73) (xy 149.86 125.73)
+			(xy 147.32 92.71) (xy 148.59 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ecd98e3-b396-4b8e-a4ae-2f46485d2c7f")
+		(uuid "0a9e548b-b368-4575-9920-76728ad597ca")
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 149.86 115.57)
+			(xy 115.57 100.33) (xy 116.84 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1aff6eed-d415-48ed-b0e0-7a8ac24b0467")
+		(uuid "0c755b95-a14f-489f-99d2-0907734c1b2f")
 	)
 	(wire
 		(pts
-			(xy 147.32 107.95) (xy 149.86 107.95)
+			(xy 115.57 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20a822c8-721c-475d-9778-5df515d8e18b")
+		(uuid "153ac274-15b7-429c-b70c-c6c44a308c24")
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 149.86 85.09)
+			(xy 60.96 68.58) (xy 62.23 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2917f1cc-ff7f-41da-b0ca-6aac3bd142fd")
+		(uuid "2659a85a-5bfd-4002-8ffe-7db80d76eb2e")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 148.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd43be6-eaf2-401e-a9a0-47519e390bbe")
 	)
 	(wire
 		(pts
@@ -1029,13 +1039,43 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 120.65) (xy 149.86 120.65)
+			(xy 60.96 55.88) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bdc0be7-bf0b-485c-825e-61acc79f5700")
+		(uuid "2f188652-f27b-48a2-b8e7-fb2a2145bc05")
+	)
+	(wire
+		(pts
+			(xy 147.32 130.81) (xy 148.59 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d227c4-4c51-485c-b425-08de6f5b9efd")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 148.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c326e9-2718-49df-b915-dea967892a61")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 116.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf115f0-d631-40c2-b6e7-bdeba1ad1b32")
 	)
 	(wire
 		(pts
@@ -1046,6 +1086,26 @@
 			(type default)
 		)
 		(uuid "3d3b4239-f252-4f20-afb6-00bb10b537f1")
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dabae13-878d-4c9c-8805-8098aa32c604")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 148.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9ddc58-953a-457c-bf7b-6db135742809")
 	)
 	(wire
 		(pts
@@ -1069,13 +1129,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 123.19) (xy 149.86 123.19)
+			(xy 147.32 64.77) (xy 148.59 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "435b49df-ed3c-4fbd-9cf5-a7df4285a8f2")
+		(uuid "431f1c34-776d-45b3-ade3-6a1a2ce2acfd")
+	)
+	(wire
+		(pts
+			(xy 147.32 80.01) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af092f0-8f37-44b2-a0e3-4f64cf6a1e7f")
 	)
 	(wire
 		(pts
@@ -1086,16 +1156,6 @@
 			(type default)
 		)
 		(uuid "4b5c2b22-405b-4dbc-ae27-2504d2aa4036")
-	)
-	(wire
-		(pts
-			(xy 147.32 64.77) (xy 149.86 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ba86913-6e46-4b98-aac9-0616c3edabdc")
 	)
 	(wire
 		(pts
@@ -1119,26 +1179,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 133.35) (xy 149.86 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eecda60-04e4-4125-97ba-b363b74541cf")
-	)
-	(wire
-		(pts
-			(xy 147.32 110.49) (xy 149.86 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9c2905-14b3-413c-88c8-581b673153a8")
-	)
-	(wire
-		(pts
 			(xy 133.35 95.25) (xy 134.62 95.25)
 		)
 		(stroke
@@ -1149,53 +1189,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 87.63) (xy 149.86 87.63)
+			(xy 115.57 69.85) (xy 116.84 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54458731-0800-4bc7-939b-a8d8a221bd52")
-	)
-	(wire
-		(pts
-			(xy 147.32 128.27) (xy 149.86 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c56d60-fafd-4709-84bc-346d6679cefc")
-	)
-	(wire
-		(pts
-			(xy 115.57 133.35) (xy 116.84 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57482db2-2ee0-40f1-b065-35980899827b")
-	)
-	(wire
-		(pts
-			(xy 147.32 77.47) (xy 149.86 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599d8400-b22d-4bc5-8b2e-2faf6ff7c01a")
-	)
-	(wire
-		(pts
-			(xy 115.57 72.39) (xy 116.84 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b2e6ca9-d18c-475b-b6ca-4c43a0652d11")
+		(uuid "558fd9e5-a8c8-4f59-a8da-e5a964d9426b")
 	)
 	(wire
 		(pts
@@ -1219,13 +1219,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 118.11) (xy 116.84 118.11)
+			(xy 147.32 82.55) (xy 148.59 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6347bb2f-f590-4d43-8daf-defc3d7fce34")
+		(uuid "63215264-93df-4abf-9b30-1d98b5f00f71")
 	)
 	(wire
 		(pts
@@ -1249,23 +1249,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 69.85) (xy 149.86 69.85)
+			(xy 147.32 113.03) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66fbee8c-c5af-49f2-b482-ee16906ae4d5")
-	)
-	(wire
-		(pts
-			(xy 147.32 82.55) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8d9dae-9ae9-49e8-b88d-126c64084ad8")
+		(uuid "6eedd78e-aec6-4e80-ac17-cdf7a3e24665")
 	)
 	(wire
 		(pts
@@ -1319,26 +1309,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 72.39) (xy 167.64 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758585a5-21f9-4193-bc87-cfbacbca28b0")
-	)
-	(wire
-		(pts
-			(xy 166.37 87.63) (xy 167.64 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "776ec1ff-8d5f-4900-895a-9b6ade17200b")
-	)
-	(wire
-		(pts
 			(xy 133.35 123.19) (xy 134.62 123.19)
 		)
 		(stroke
@@ -1379,13 +1349,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 92.71) (xy 149.86 92.71)
+			(xy 115.57 123.19) (xy 116.84 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84aa8aea-76b5-453a-926f-4302ce153685")
+		(uuid "82669ef6-688d-4718-99d8-034d2dc73817")
 	)
 	(wire
 		(pts
@@ -1399,6 +1369,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 128.27) (xy 148.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86804e36-0d7d-41f5-b052-2a0b065b67c4")
+	)
+	(wire
+		(pts
 			(xy 133.35 92.71) (xy 134.62 92.71)
 		)
 		(stroke
@@ -1409,23 +1389,43 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 102.87) (xy 116.84 102.87)
+			(xy 147.32 100.33) (xy 148.59 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ba9a9f4-5388-4186-a370-ccd07f4faff4")
+		(uuid "908f7392-0839-4df1-9649-87c3cd010dbd")
 	)
 	(wire
 		(pts
-			(xy 147.32 62.23) (xy 149.86 62.23)
+			(xy 147.32 85.09) (xy 148.59 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9680aed8-e934-4129-ae99-2ff51b410bb5")
+		(uuid "913eb1e3-068c-459c-a510-4025dc6b05ba")
+	)
+	(wire
+		(pts
+			(xy 147.32 74.93) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924f4178-02a4-4e17-879d-254925317822")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b06986-0415-4b4e-bb1d-16368e864a67")
 	)
 	(wire
 		(pts
@@ -1439,13 +1439,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 149.86 74.93)
+			(xy 60.96 43.18) (xy 62.23 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bc34d8d-003e-4430-890c-32b98fe2c4f3")
+		(uuid "9900533c-6313-4b16-a364-261ae91b41e6")
+	)
+	(wire
+		(pts
+			(xy 147.32 90.17) (xy 148.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3a5150-476f-4de7-91a9-e208fc93f3c3")
 	)
 	(wire
 		(pts
@@ -1459,16 +1469,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 55.88) (xy 60.96 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a021711b-9a69-4010-b344-5a4637318fe5")
-	)
-	(wire
-		(pts
 			(xy 133.35 62.23) (xy 134.62 62.23)
 		)
 		(stroke
@@ -1479,13 +1479,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 60.96 68.58)
+			(xy 147.32 123.19) (xy 148.59 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1a8ff3e-2442-4bb7-8bce-db0ad45f50df")
+		(uuid "a35dc3e6-d834-47b8-83dd-aa2cb69bf88c")
 	)
 	(wire
 		(pts
@@ -1499,13 +1499,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 149.86 90.17)
+			(xy 147.32 120.65) (xy 148.59 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8aeac06-0973-460e-8a16-36e601c7e7a3")
+		(uuid "a9ff06c1-523a-4b00-ba5f-ca58a0f32890")
 	)
 	(wire
 		(pts
@@ -1529,26 +1529,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 149.86 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af20bec0-33e1-4771-891c-cf4fc3bc300e")
-	)
-	(wire
-		(pts
-			(xy 147.32 67.31) (xy 149.86 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0d903f2-c6f9-4d5b-85b8-912833598757")
-	)
-	(wire
-		(pts
 			(xy 57.15 58.42) (xy 60.96 58.42)
 		)
 		(stroke
@@ -1559,13 +1539,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 149.86 100.33)
+			(xy 147.32 87.63) (xy 148.59 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbe5253d-bac4-444a-939e-b569bc1ee8b1")
+		(uuid "b535052c-c713-4b9a-bdff-bee1f465e20d")
+	)
+	(wire
+		(pts
+			(xy 115.57 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf47789-ad9c-495d-b5d1-7984227ced18")
 	)
 	(wire
 		(pts
@@ -1589,53 +1579,63 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 149.86 113.03)
+			(xy 147.32 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfcb53cc-23d4-431b-b0c6-9557cd01eca6")
+		(uuid "bdc7da98-6771-4c81-b2d0-e4a27486f8be")
 	)
 	(wire
 		(pts
-			(xy 147.32 130.81) (xy 149.86 130.81)
+			(xy 147.32 69.85) (xy 148.59 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1174ba7-1950-4a44-b887-c50614d1a717")
+		(uuid "bdf64e91-16a1-4159-8f7f-e6c79573fa89")
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 149.86 72.39)
+			(xy 147.32 67.31) (xy 148.59 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c476a519-41d7-4748-8e5c-49c53948a54d")
+		(uuid "c08c32b1-bd5d-40b3-abc9-45a55e246cd9")
 	)
 	(wire
 		(pts
-			(xy 147.32 118.11) (xy 149.86 118.11)
+			(xy 147.32 125.73) (xy 148.59 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7650df4-1f57-4682-b0f7-1436531ea388")
+		(uuid "c288a517-4611-495b-8ff7-b6f24784e3e3")
 	)
 	(wire
 		(pts
-			(xy 147.32 102.87) (xy 149.86 102.87)
+			(xy 147.32 115.57) (xy 148.59 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1672430-a0bc-41b7-a3c4-59bcbfa4b78f")
+		(uuid "c348090d-13e5-477b-b229-3428fc614432")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.41) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55bc7f5-30a1-40fc-b444-cc0f8d825ed9")
 	)
 	(wire
 		(pts
@@ -1669,23 +1669,43 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 149.86 105.41)
+			(xy 115.57 85.09) (xy 116.84 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd99a68e-5886-423c-91ca-83605d61c5a9")
+		(uuid "e10a4c7b-0e3c-493e-9b6b-327af76cd6b7")
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 116.84 87.63)
+			(xy 115.57 62.23) (xy 116.84 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2a458f5-3205-41ef-acd1-a4b89626d11d")
+		(uuid "e25d9540-9ded-4899-b006-fb719a657334")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65c7222-3c1e-41a3-807f-7a0b206c27b9")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f2d5f4-9393-4906-917d-75c5d1e0482f")
 	)
 	(wire
 		(pts
@@ -1699,33 +1719,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 118.11) (xy 167.64 118.11)
+			(xy 147.32 118.11) (xy 148.59 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb4b69ef-d247-4b4b-9be0-461eec6ee2f8")
-	)
-	(wire
-		(pts
-			(xy 166.37 102.87) (xy 167.64 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ece2ce85-8b29-420b-af04-427e9dd465ac")
-	)
-	(wire
-		(pts
-			(xy 166.37 133.35) (xy 167.64 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e3d102-27a1-408c-8ac4-62d5a205cc92")
+		(uuid "eab037f1-d966-4ed3-9d38-515531266249")
 	)
 	(wire
 		(pts
@@ -1739,45 +1739,793 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 149.86 80.01)
+			(xy 115.57 130.81) (xy 116.84 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f50cf263-f9e3-494b-ad60-c316f4a4ab04")
+		(uuid "f5d00d64-c4f9-4a9d-9744-5b6a49c8bbaa")
 	)
 	(wire
 		(pts
-			(xy 147.32 59.69) (xy 149.86 59.69)
+			(xy 147.32 133.35) (xy 148.59 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc31b77d-1fb1-4252-af64-f3312b23fb54")
+		(uuid "f89564dc-3567-435e-ad65-c9a237e74d08")
 	)
-	(hierarchical_label "EN3"
-		(shape input)
-		(at 115.57 102.87 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "23af0877-35be-4fd3-8544-3851a38bc374")
-	)
-	(hierarchical_label "EN9"
-		(shape input)
-		(at 167.64 118.11 0)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
 			(justify left)
 		)
-		(uuid "4f5f0550-41ea-4d96-832f-9dd5d26f55b8")
+		(uuid "0429aacb-9049-43a5-a915-3b80c694594a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "14b73c40-87da-43db-9cc6-ba655ba249ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "1be2eb9c-94e7-4b48-ab9b-f5b606fddeb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2009442f-1d17-4dfe-9fee-4462fe79f3f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "21b85226-70b8-4aa3-a962-44d5c28bc3bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "25bb035c-93e3-4bd3-8f79-4bc341a9275e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2df58d4c-daee-43a2-9520-f017acc311d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "348c4f20-064f-43b3-8d3f-ca1785467e8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "393d1066-ee58-40b7-a3fc-5c91407c72b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 62.23 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "49aff66f-7c36-4da2-9faa-13e0181b9cae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2946 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "4aff6dd8-9eb2-4570-a248-d04a073115b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "4eb50be1-00c9-406e-9bd2-0c20a071778f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "5ff29b02-8214-4174-a20a-42cc60065a91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "5ffd7ab4-7783-48a8-af63-6c4fac6139b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "65d40a6a-795a-468e-951e-1a4130c5bf0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "66922ba2-583c-4cfe-817d-08f41cd45700")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "6e8b22e1-e3eb-4e65-892c-c67167d81657")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 62.23 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "83c42bc6-c305-49ea-b5cc-f97d984c886a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2946 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "950d51bd-b09b-4b66-a07c-08fb7627501a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "a2fe70f0-d385-433d-90bd-c39a593f96ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "a978077b-ba81-46ca-9429-455a356e9ceb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "af90b5b2-56a6-4864-abec-a50ff6aadca6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "bfeadc9c-73bd-4bd0-b803-d3dd43947808")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "c2fdbea6-6f87-44ff-96b5-2e30da5bb7af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "c65fc6ca-ce02-44f2-a523-a3743a9bc018")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "cfd5d745-a3d7-4da9-9459-86c5a837cd48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "dc0384b7-42df-4136-bce3-2dc3be2d0962")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "de583ed7-9575-43d0-8b8e-5ffa6f4e8761")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T2"
+		(shape output)
+		(at 148.59 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "e6e9d9a6-b9d8-452c-a0f5-80deaa6a76e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 148.59 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "e7b67fbf-7608-412f-8f6f-0a88f190877b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "e958c484-3f88-4e0b-8f63-1d04669410c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T1"
+		(shape output)
+		(at 148.59 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "f8cc0a64-2f12-4373-9a74-0895c4570c94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6546 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "T3"
+		(shape output)
+		(at 62.23 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "fe976559-ec31-4c1f-bd4e-c9717f28000e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2946 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "EN8"
+		(shape input)
+		(at 115.57 115.57 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "063b7d66-6fba-4ed6-a649-bf0ba23ea2c8")
+	)
+	(hierarchical_label "EN7"
+		(shape input)
+		(at 115.57 107.95 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "3f0c2555-2183-40e8-b36f-b5611bc54668")
+	)
+	(hierarchical_label "EN6"
+		(shape input)
+		(at 115.57 100.33 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "4601d9df-a1fd-4e4c-8d00-15e0a620d69a")
+	)
+	(hierarchical_label "EN10"
+		(shape input)
+		(at 115.57 130.81 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "5ead18e3-210d-4150-ba10-6d95ebe348d2")
 	)
 	(hierarchical_label "EN0"
 		(shape input)
@@ -1790,53 +2538,9 @@
 		)
 		(uuid "629dfe4b-3922-4973-894b-f2c0698ca3e1")
 	)
-	(hierarchical_label "EN4"
-		(shape input)
-		(at 115.57 118.11 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "6389fa36-c9c8-4c3b-9e32-8f5e94be314f")
-	)
-	(hierarchical_label "EN7"
-		(shape input)
-		(at 167.64 87.63 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "6d187e38-67c7-4ee9-aa3a-c30f6c18d706")
-	)
-	(hierarchical_label "EN5"
-		(shape input)
-		(at 115.57 133.35 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "6edeaa94-02d2-410a-bef2-8c711978e180")
-	)
-	(hierarchical_label "EN6"
-		(shape input)
-		(at 167.64 72.39 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "779e86c0-3b27-48fb-8c21-131749b59c09")
-	)
 	(hierarchical_label "EN2"
 		(shape input)
-		(at 115.57 87.63 180)
+		(at 115.57 69.85 180)
 		(effects
 			(font
 				(size 1 1)
@@ -1845,31 +2549,31 @@
 		)
 		(uuid "80041734-4e92-4156-9c8e-5f3b436d9f77")
 	)
-	(hierarchical_label "EN8"
+	(hierarchical_label "EN3"
 		(shape input)
-		(at 167.64 102.87 0)
+		(at 115.57 77.47 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9402cd5c-71ee-43bc-bc44-7979e736a2e3")
+		(uuid "a64f23ae-0f18-482d-aaf5-779b2082348b")
 	)
-	(hierarchical_label "EN10"
+	(hierarchical_label "EN9"
 		(shape input)
-		(at 167.64 133.35 0)
+		(at 115.57 123.19 180)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "ca23af21-40e2-4e40-98b8-f6042602dea5")
+		(uuid "d0de3db3-aab1-4427-88fe-4fa69a6e0605")
 	)
 	(hierarchical_label "EN1"
 		(shape input)
-		(at 115.57 72.39 180)
+		(at 115.57 62.23 180)
 		(effects
 			(font
 				(size 1 1)
@@ -1878,8 +2582,30 @@
 		)
 		(uuid "d155c59e-60ad-45f6-88b4-e7b9797e9280")
 	)
+	(hierarchical_label "EN4"
+		(shape input)
+		(at 115.57 85.09 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "d8c57b81-5291-408a-83ab-71ed3477ac90")
+	)
+	(hierarchical_label "EN5"
+		(shape input)
+		(at 115.57 92.71 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "ef8fa525-a3ba-44ad-af4d-a0928ad0ee5b")
+	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
 		(at 139.7 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1922,7 +2648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -2106,7 +2832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
 		(at 139.7 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2149,7 +2875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -2246,7 +2972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
 		(at 139.7 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2289,7 +3015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -2560,8 +3286,8 @@
 		)
 	)
 	(sheet
-		(at 149.86 73.66)
-		(size 16.51 15.24)
+		(at 116.84 127)
+		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2569,9 +3295,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "0d2d7204-129d-421c-bcc5-b71bb72cba95")
-		(property "Sheetname" "Cell Group 7"
-			(at 167.64 81.28 0)
+		(uuid "020fdaa3-4b7e-4aec-bc2f-10b9940c9cfa")
+		(property "Sheetname" "Cell Group 10"
+			(at 102.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +3306,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 165.5766 90.17 90)
+			(at 132.5566 143.51 90)
 			(effects
 				(font
 					(size 1 1)
@@ -2589,87 +3315,57 @@
 				(hide yes)
 			)
 		)
-		(pin "2H" passive
-			(at 149.86 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f5cf3dd1-8fa7-4828-863d-7a2db159b147")
-		)
-		(pin "3H" passive
-			(at 149.86 77.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fdb5acce-fb6b-4ce3-8656-a80532a7261f")
-		)
 		(pin "EN" input
-			(at 166.37 87.63 0)
+			(at 116.84 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a06d3b87-66b7-4f0f-bd11-a91b8c925934")
+		)
+		(pin "2L" passive
+			(at 133.35 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d5cd75cc-756b-472c-9d11-e92c92a9ecd2")
-		)
-		(pin "2L" passive
-			(at 149.86 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e9388679-2fa2-48b5-99f7-61320e03f4ad")
+			(uuid "33f458c7-eca1-4c8e-9e38-0ea66f217e25")
 		)
 		(pin "1L" passive
-			(at 149.86 85.09 180)
+			(at 133.35 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "1d4600a8-536c-4625-96e7-1862ef7d7e69")
+			(uuid "e2c607a1-e5ae-47d7-aef5-aee2a778b69a")
 		)
 		(pin "3L" passive
-			(at 149.86 74.93 180)
+			(at 133.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "343d4407-81f6-441b-a8a3-49bccc9d3c28")
-		)
-		(pin "1H" passive
-			(at 149.86 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d3af1a1b-13eb-4de5-b47a-55d8b2bd1960")
+			(uuid "2592d21e-b212-4c0a-9d2e-4a8ccaa94aa6")
 		)
 		(instances
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
-					(page "23")
+					(page "26")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 149.86 104.14)
-		(size 16.51 15.24)
+		(at 116.84 73.66)
+		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2677,9 +3373,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "29137b06-2a79-41e8-a20a-ffb792999e98")
-		(property "Sheetname" "Cell Group 9"
-			(at 167.64 111.76 0)
+		(uuid "0433f06a-e410-41f0-ac44-5fd54933f83a")
+		(property "Sheetname" "Cell Group 3"
+			(at 104.14 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +3384,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 165.5766 120.65 90)
+			(at 132.5566 90.17 90)
 			(effects
 				(font
 					(size 1 1)
@@ -2697,75 +3393,123 @@
 				(hide yes)
 			)
 		)
-		(pin "2H" passive
-			(at 149.86 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "20c8dc5d-6d43-4df3-a74d-15dd07d91554")
-		)
-		(pin "3H" passive
-			(at 149.86 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a2092660-e805-4531-8ca1-9c0e8f70048d")
-		)
 		(pin "EN" input
-			(at 166.37 118.11 0)
+			(at 116.84 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "504a007c-1d61-4a9b-b781-834757f6ef2e")
+		)
+		(pin "2L" passive
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8560a0b5-40d2-4cff-82a9-5e5e11c5888b")
-		)
-		(pin "2L" passive
-			(at 149.86 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b115b473-48e7-4b32-8a62-b182053257b8")
+			(uuid "890afbc0-45f6-49bb-afd3-ef146ee37f99")
 		)
 		(pin "1L" passive
-			(at 149.86 115.57 180)
+			(at 133.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "cf6e5ce5-e81d-450c-9e23-fb74e6b4cddd")
+			(uuid "cbdbeef5-6ffc-4b58-9f8c-db03071b006c")
 		)
 		(pin "3L" passive
-			(at 149.86 105.41 180)
+			(at 133.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "d0e1d4f4-bdfc-4f59-91b6-7dad5cb25e33")
+			(uuid "9ad4fc95-16cd-46d5-b0b1-1baf42c45c1d")
 		)
-		(pin "1H" passive
-			(at 149.86 118.11 180)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 119.38)
+		(size 16.51 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2578b8d3-e32a-49ab-aef2-f1d1ec326ec0")
+		(property "Sheetname" "Cell Group 9"
+			(at 104.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermistor.kicad_sch"
+			(at 132.5566 135.89 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "EN" input
+			(at 116.84 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e4ef9d9b-fb02-44c5-a821-0665ce949cbe")
+			(uuid "31df511a-4f76-4d0d-8ce0-6ec4679e95d8")
+		)
+		(pin "2L" passive
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c641ac4a-c17c-46b8-9a2c-3417c550dee7")
+		)
+		(pin "1L" passive
+			(at 133.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40e634f8-da17-46a2-a1ae-b614d72b1076")
+		)
+		(pin "3L" passive
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "80854655-bf77-42e0-9408-d762d7150078")
 		)
 		(instances
 			(project "bms"
@@ -2776,332 +3520,8 @@
 		)
 	)
 	(sheet
-		(at 149.86 58.42)
-		(size 16.51 15.24)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "79ecc304-8e18-444c-9a27-bb0ae7f09105")
-		(property "Sheetname" "Cell Group 6"
-			(at 167.64 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 165.5766 74.93 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2H" passive
-			(at 149.86 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4b56919d-5f0f-42a2-afcf-24634324be3f")
-		)
-		(pin "3H" passive
-			(at 149.86 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c65e708b-b206-4c17-b768-0149df50bd5e")
-		)
-		(pin "EN" input
-			(at 166.37 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7d13069a-c99d-47e8-b99f-bcff60272740")
-		)
-		(pin "2L" passive
-			(at 149.86 64.77 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "794be82f-9c99-4daf-8de8-b6667ce475be")
-		)
-		(pin "1L" passive
-			(at 149.86 69.85 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e3f1e866-5467-4e6a-b47e-2a5ab04ff026")
-		)
-		(pin "3L" passive
-			(at 149.86 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d76c360f-efe1-4aee-92d7-54cae050309a")
-		)
-		(pin "1H" passive
-			(at 149.86 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ddf3a42e-5c63-4b5f-9835-902804448252")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
-					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 116.84 104.14)
-		(size 16.51 15.24)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7d586639-e148-4a8a-9ad9-620c1fe14641")
-		(property "Sheetname" "Cell Group 4"
-			(at 102.87 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 132.5566 120.65 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2H" passive
-			(at 133.35 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3d2e6202-26fa-4699-8eae-5cf6d5a26e8d")
-		)
-		(pin "3H" passive
-			(at 133.35 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "70c1510b-5a88-41ee-b10b-cce351d1afba")
-		)
-		(pin "EN" input
-			(at 116.84 118.11 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ff377ddd-40e7-4f17-b736-c7a5bf9bfc14")
-		)
-		(pin "2L" passive
-			(at 133.35 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2803f1fa-ff4a-425f-a4fb-7b1c7ad2d007")
-		)
-		(pin "1L" passive
-			(at 133.35 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fe04ce01-efda-46c7-924b-19abc602505f")
-		)
-		(pin "3L" passive
-			(at 133.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5a9ecd01-b14d-4281-aad8-df94fb83a713")
-		)
-		(pin "1H" passive
-			(at 133.35 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "30193a39-179d-47f0-aee8-56cfceef7d4e")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
-					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 116.84 58.42)
-		(size 16.51 15.24)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8f54f16c-7967-437d-a988-e231275c63ab")
-		(property "Sheetname" "Cell Group 1"
-			(at 102.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 132.5566 74.93 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2H" passive
-			(at 133.35 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0ca94080-ee6b-4d7c-8ecf-55ad2f1a305a")
-		)
-		(pin "3H" passive
-			(at 133.35 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ec2d770e-3e62-496e-b276-c77e9c8356b8")
-		)
-		(pin "EN" input
-			(at 116.84 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d5c8706c-58a0-4d8a-b890-963df52fb326")
-		)
-		(pin "2L" passive
-			(at 133.35 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6a11d2b7-505c-48aa-9030-479a78c78ab8")
-		)
-		(pin "1L" passive
-			(at 133.35 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3e32e23c-0cbb-4b13-9569-91bd725d1ce7")
-		)
-		(pin "3L" passive
-			(at 133.35 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b0ef255a-8cfa-4f63-80b8-ec6bba2431ef")
-		)
-		(pin "1H" passive
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e35d1dd0-8be4-4c6e-ad1b-19750589187e")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
-					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 116.84 88.9)
-		(size 16.51 15.24)
+		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3109,9 +3529,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "9c1ee688-8492-4d78-a310-31dcbd30b38f")
-		(property "Sheetname" "Cell Group 3"
-			(at 102.87 97.79 0)
+		(uuid "2d18db88-48bf-4f90-a8bf-9733e690c890")
+		(property "Sheetname" "Cell Group 5"
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,17 +3549,17 @@
 				(hide yes)
 			)
 		)
-		(pin "2H" passive
-			(at 133.35 97.79 0)
+		(pin "EN" input
+			(at 116.84 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "86c87617-5afd-4ba1-8fa2-aaa972e4028f")
+			(uuid "07f8baa8-36fc-4244-94ea-207eb5cf4f68")
 		)
-		(pin "3H" passive
+		(pin "2L" passive
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -3147,39 +3567,9 @@
 				)
 				(justify right)
 			)
-			(uuid "465e096c-2647-477f-858e-a92cef284983")
-		)
-		(pin "EN" input
-			(at 116.84 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "60434a55-0535-4d77-89e7-55e766d6edf5")
-		)
-		(pin "2L" passive
-			(at 133.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a63236bd-3cfa-4b6c-b617-4849bdc77abc")
+			(uuid "3954df13-1ad2-4892-86e5-5751760562ca")
 		)
 		(pin "1L" passive
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "be06a7d4-5af6-4d7a-9994-27dbbb52558c")
-		)
-		(pin "3L" passive
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -3187,9 +3577,87 @@
 				)
 				(justify right)
 			)
-			(uuid "13bf9b60-e12b-4cb8-9c8a-3c71ce3de969")
+			(uuid "4a424ed3-ce34-413d-8f53-0394da0ec99d")
 		)
-		(pin "1H" passive
+		(pin "3L" passive
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f0b5327e-e503-4231-a572-e3ee18c8ffe2")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 96.52)
+		(size 16.51 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "301c5f1d-bbeb-4425-8c3b-7023608384ed")
+		(property "Sheetname" "Cell Group 6"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermistor.kicad_sch"
+			(at 132.5566 113.03 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "EN" input
+			(at 116.84 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "960c1e73-e475-42d1-b5d6-7b33a74479d7")
+		)
+		(pin "2L" passive
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "049e4db4-31b0-4cab-9ece-1f28d8170d11")
+		)
+		(pin "1L" passive
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e93273d7-7c17-4a19-8169-05f9fe8e117b")
+		)
+		(pin "3L" passive
 			(at 133.35 102.87 0)
 			(effects
 				(font
@@ -3197,19 +3665,19 @@
 				)
 				(justify right)
 			)
-			(uuid "c2b3587f-d205-4be2-9edb-58fc845f924d")
+			(uuid "e6f016c2-0772-435b-8ec4-1b60ebf42faa")
 		)
 		(instances
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
-					(page "19")
+					(page "22")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 149.86 119.38)
-		(size 16.51 15.24)
+		(at 116.84 81.28)
+		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3217,9 +3685,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "bb249f9a-39ea-44a6-9a0b-74cb85e10ca5")
-		(property "Sheetname" "Cell Group 10"
-			(at 167.64 127 0)
+		(uuid "49c2e3c4-7860-4f6d-8623-5e62cfe4b5da")
+		(property "Sheetname" "Cell Group 4"
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3696,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 165.5766 135.89 90)
+			(at 132.5566 97.79 90)
 			(effects
 				(font
 					(size 1 1)
@@ -3237,87 +3705,57 @@
 				(hide yes)
 			)
 		)
-		(pin "2H" passive
-			(at 149.86 128.27 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ee099d29-a390-41c8-9143-50da86a19ff8")
-		)
-		(pin "3H" passive
-			(at 149.86 123.19 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "09186a05-2d47-4b47-98c6-9875058d4df1")
-		)
 		(pin "EN" input
-			(at 166.37 133.35 0)
+			(at 116.84 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35fa3498-3475-4bc5-87a4-cb35414a0043")
+		)
+		(pin "2L" passive
+			(at 133.35 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4d0df5b8-702d-4404-b57d-6c9d3855975b")
-		)
-		(pin "2L" passive
-			(at 149.86 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f9ceaa6d-00ae-4dfb-b972-275c3567214d")
+			(uuid "a0ef3937-042c-4668-9a34-4110afb01081")
 		)
 		(pin "1L" passive
-			(at 149.86 130.81 180)
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "718a3ab8-254b-445b-9c0c-8879bfac0f73")
+			(uuid "49fa38c8-7e82-414c-8dad-7be5efd01302")
 		)
 		(pin "3L" passive
-			(at 149.86 120.65 180)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "fd0906c0-ba7e-4d28-b3cd-1ba76011a611")
-		)
-		(pin "1H" passive
-			(at 149.86 133.35 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "cb6e6cea-0e52-4a3e-8588-53c2cddc3bbc")
+			(uuid "15cc23f2-e18a-4010-a9fb-f5f64ab5918e")
 		)
 		(instances
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
-					(page "26")
+					(page "20")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 149.86 88.9)
-		(size 16.51 15.24)
+		(at 116.84 104.14)
+		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3325,9 +3763,87 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "efd357bc-4550-47fb-96bd-8f3dacb5f594")
+		(uuid "4dd4ec53-b446-4ad2-b248-21bc2e2a3174")
+		(property "Sheetname" "Cell Group 7"
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermistor.kicad_sch"
+			(at 132.5566 120.65 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "EN" input
+			(at 116.84 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0db3f91f-e458-4f85-80e4-40859d40779e")
+		)
+		(pin "2L" passive
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "376ad9c5-322b-4c80-8142-9ffe1aa3293e")
+		)
+		(pin "1L" passive
+			(at 133.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f34b06ea-f230-4ad7-88c0-04459460d83b")
+		)
+		(pin "3L" passive
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "340870c0-16a0-4284-933a-636909d619c5")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 111.76)
+		(size 16.51 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fb315b4-f5bd-47db-b6ba-830853018616")
 		(property "Sheetname" "Cell Group 8"
-			(at 167.64 96.52 0)
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +3852,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 165.5766 105.41 90)
+			(at 132.5566 128.27 90)
 			(effects
 				(font
 					(size 1 1)
@@ -3345,80 +3861,128 @@
 				(hide yes)
 			)
 		)
-		(pin "2H" passive
-			(at 149.86 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f29b8912-6d1d-49af-99c2-95bf1995f779")
-		)
-		(pin "3H" passive
-			(at 149.86 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d6eb034e-d76f-4305-91b2-ce48decba617")
-		)
 		(pin "EN" input
-			(at 166.37 102.87 0)
+			(at 116.84 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "101d4062-caac-4bd2-9a07-1ac5baf25bad")
+		)
+		(pin "2L" passive
+			(at 133.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3814db66-aa55-49fb-a95c-3918db4c113b")
-		)
-		(pin "2L" passive
-			(at 149.86 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "08008718-cd94-45ad-8c54-dfa52adb10df")
+			(uuid "1ccf124b-5ab0-4fb1-a40e-bb614e76bd92")
 		)
 		(pin "1L" passive
-			(at 149.86 100.33 180)
+			(at 133.35 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "0bdb55eb-d02b-4e61-942b-bf1d85e6fb23")
+			(uuid "34bb588c-d40c-4dc6-a560-2deb5477a0a3")
 		)
 		(pin "3L" passive
-			(at 149.86 90.17 180)
+			(at 133.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "161259f4-0fca-41d0-896c-3125b72a1b19")
-		)
-		(pin "1H" passive
-			(at 149.86 102.87 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fbb3923c-4a7d-4672-a01b-6c3f12fab666")
+			(uuid "0fcc2ed9-9456-44eb-8634-8c2db06de9e8")
 		)
 		(instances
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
 					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 58.42)
+		(size 16.51 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f54f16c-7967-437d-a988-e231275c63ab")
+		(property "Sheetname" "Cell Group 1"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermistor.kicad_sch"
+			(at 132.5566 74.93 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "EN" input
+			(at 116.84 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5c8706c-58a0-4d8a-b890-963df52fb326")
+		)
+		(pin "2L" passive
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6a11d2b7-505c-48aa-9030-479a78c78ab8")
+		)
+		(pin "1L" passive
+			(at 133.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e32e23c-0cbb-4b13-9569-91bd725d1ce7")
+		)
+		(pin "3L" passive
+			(at 133.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0ef255a-8cfa-4f63-80b8-ec6bba2431ef")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
+					(page "17")
 				)
 			)
 		)
@@ -3453,36 +4017,6 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "2H" passive
-			(at 57.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e56a8fe0-e594-4c85-ac88-03adb47c1b33")
-		)
-		(pin "3H" passive
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "02c751f1-a10c-48f5-8561-947ffb109379")
-		)
-		(pin "1H" passive
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1b528adf-0a5d-45a0-8339-b4e9192d5df6")
 		)
 		(pin "2L" passive
 			(at 57.15 45.72 0)
@@ -3533,116 +4067,8 @@
 		)
 	)
 	(sheet
-		(at 116.84 119.38)
-		(size 16.51 15.24)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fa4bad2a-a064-460b-8083-ff08c7505cb9")
-		(property "Sheetname" "Cell Group 5"
-			(at 102.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 132.5566 135.89 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2H" passive
-			(at 133.35 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "48567062-0b55-40ca-b70a-95be7947bb50")
-		)
-		(pin "3H" passive
-			(at 133.35 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7554e9f7-4e8f-43b6-a9dd-eaedc844bc0c")
-		)
-		(pin "EN" input
-			(at 116.84 133.35 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dcac0a37-9108-42e0-8f6a-7172093e40bb")
-		)
-		(pin "2L" passive
-			(at 133.35 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4c8834f4-25c7-4829-b44a-57f416bfc47c")
-		)
-		(pin "1L" passive
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "913938e1-b2ac-47b7-8500-58c8137490a4")
-		)
-		(pin "3L" passive
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6750705b-4ef8-4b8c-8393-8632fd82f31d")
-		)
-		(pin "1H" passive
-			(at 133.35 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "14cfd873-e875-4029-b68a-7dcc275424c4")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
-					(page "21")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 116.84 73.66)
-		(size 16.51 15.24)
+		(at 116.84 66.04)
+		(size 16.51 7.62)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3652,7 +4078,7 @@
 		)
 		(uuid "fa95d462-4de0-4934-af70-5f0e8f1d034c")
 		(property "Sheetname" "Cell Group 2"
-			(at 102.87 82.55 0)
+			(at 104.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +4087,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistor.kicad_sch"
-			(at 132.5566 90.17 90)
+			(at 132.5566 82.55 90)
 			(effects
 				(font
 					(size 1 1)
@@ -3670,28 +4096,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2H" passive
-			(at 133.35 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "247225ef-d1a7-475a-bd24-9e00d73e24c1")
-		)
-		(pin "3H" passive
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "2a68cd91-d7b3-4ac4-810b-f944e7224fc8")
-		)
 		(pin "EN" input
-			(at 116.84 87.63 180)
+			(at 116.84 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +4107,7 @@
 			(uuid "5603523c-f617-4271-bb86-334675035831")
 		)
 		(pin "2L" passive
-			(at 133.35 80.01 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +4117,7 @@
 			(uuid "74738ee8-c971-4513-abfd-c6a78312e09f")
 		)
 		(pin "1L" passive
-			(at 133.35 85.09 0)
+			(at 133.35 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4127,7 @@
 			(uuid "e162113c-d464-47a5-b72c-8f0790ff89d5")
 		)
 		(pin "3L" passive
-			(at 133.35 74.93 0)
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,16 +4135,6 @@
 				(justify right)
 			)
 			(uuid "3ab387fe-a8c1-4a60-9567-cef5f60573aa")
-		)
-		(pin "1H" passive
-			(at 133.35 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0cff2bc0-c289-4c5d-848b-5bbdead6bdf8")
 		)
 		(instances
 			(project "bms"

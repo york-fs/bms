@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -129,7 +129,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -214,6 +214,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 0.7,
@@ -809,35 +813,35 @@
       "Cell Group 2"
     ],
     [
-      "9c1ee688-8492-4d78-a310-31dcbd30b38f",
+      "0433f06a-e410-41f0-ac44-5fd54933f83a",
       "Cell Group 3"
     ],
     [
-      "7d586639-e148-4a8a-9ad9-620c1fe14641",
+      "49c2e3c4-7860-4f6d-8623-5e62cfe4b5da",
       "Cell Group 4"
     ],
     [
-      "fa4bad2a-a064-460b-8083-ff08c7505cb9",
+      "2d18db88-48bf-4f90-a8bf-9733e690c890",
       "Cell Group 5"
     ],
     [
-      "79ecc304-8e18-444c-9a27-bb0ae7f09105",
+      "301c5f1d-bbeb-4425-8c3b-7023608384ed",
       "Cell Group 6"
     ],
     [
-      "0d2d7204-129d-421c-bcc5-b71bb72cba95",
+      "4dd4ec53-b446-4ad2-b248-21bc2e2a3174",
       "Cell Group 7"
     ],
     [
-      "efd357bc-4550-47fb-96bd-8f3dacb5f594",
+      "6fb315b4-f5bd-47db-b6ba-830853018616",
       "Cell Group 8"
     ],
     [
-      "29137b06-2a79-41e8-a20a-ffb792999e98",
+      "2578b8d3-e32a-49ab-aef2-f1d1ec326ec0",
       "Cell Group 9"
     ],
     [
-      "bb249f9a-39ea-44a6-9a0b-74cb85e10ca5",
+      "020fdaa3-4b7e-4aec-bc2f-10b9940c9cfa",
       "Cell Group 10"
     ]
   ],

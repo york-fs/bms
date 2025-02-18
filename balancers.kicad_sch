@@ -11,126 +11,6 @@
 		(company "York Formula Student")
 	)
 	(lib_symbols
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -280,7 +160,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 163.83) (xy 38.1 163.83)
+			(xy 36.83 163.83) (xy 38.1 163.83)
 		)
 		(stroke
 			(width 0)
@@ -590,16 +470,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 163.83) (xy 35.56 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf8d2f0-b23d-4604-9db1-cbb95d7a01ab")
-	)
-	(wire
-		(pts
 			(xy 36.83 74.93) (xy 38.1 74.93)
 		)
 		(stroke
@@ -736,6 +606,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TAP12"
+		(shape input)
+		(at 36.83 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "26e48c3d-8487-4593-a09e-9b86ad8138dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.9559 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1418,71 +1310,6 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/28948f48-ac92-4ccf-aa29-40bfebbeebe0"
 					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 35.56 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2f38515-5b61-4ef2-a0ac-457f8a9cae2c")
-		(property "Reference" "#PWR056"
-			(at 35.56 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 35.56 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a378774b-8d74-407d-95f1-0274e9e61a3d")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/28948f48-ac92-4ccf-aa29-40bfebbeebe0"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)

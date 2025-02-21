@@ -6822,8 +6822,16 @@
 		(uuid "fafaef9e-5d68-477f-935a-2a1b68510ef7")
 	)
 	(no_connect
+		(at 250.19 50.8)
+		(uuid "25c05a42-6e17-48e5-abcf-eceaf50a33aa")
+	)
+	(no_connect
 		(at 214.63 60.96)
 		(uuid "35e7260a-036e-4b86-9fab-a77963aa20d2")
+	)
+	(no_connect
+		(at 250.19 53.34)
+		(uuid "377a8f81-7f61-468e-9b2c-63e43dd7cfd8")
 	)
 	(no_connect
 		(at 214.63 71.12)
@@ -6848,6 +6856,10 @@
 	(no_connect
 		(at 214.63 53.34)
 		(uuid "9b4b9da1-29d8-4583-b78d-bbc56a34742e")
+	)
+	(no_connect
+		(at 250.19 55.88)
+		(uuid "a36cb3e7-76bc-40f9-ac3b-f7ca79c98377")
 	)
 	(no_connect
 		(at 250.19 60.96)
@@ -7927,16 +7939,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 55.88) (xy 254 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4994e408-eabf-4d3f-a3e6-668cdc2fd9d4")
-	)
-	(wire
-		(pts
 			(xy 177.8 147.32) (xy 177.8 146.05)
 		)
 		(stroke
@@ -7944,16 +7946,6 @@
 			(type default)
 		)
 		(uuid "4aa150fc-84d4-4ce1-86db-0e8ad7099c4a")
-	)
-	(wire
-		(pts
-			(xy 250.19 53.34) (xy 254 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b13352e-c3be-4056-93c7-a0b7a9badbbd")
 	)
 	(wire
 		(pts
@@ -9114,16 +9106,6 @@
 			(type default)
 		)
 		(uuid "96746b8e-f845-4a7e-849f-3e875b7ae97c")
-	)
-	(wire
-		(pts
-			(xy 250.19 50.8) (xy 254 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9678d71e-e097-447f-a8a3-e83cd4e7e52e")
 	)
 	(wire
 		(pts
@@ -17247,7 +17229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd25560-e12b-4c27-9c90-a4d92ca6bfd5")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 270.51 83.8199 0)
 			(effects
 				(font
@@ -17319,7 +17301,7 @@
 		(instances
 			(project ""
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -25001,7 +24983,7 @@
 	)
 	(sheet
 		(at 254 29.21)
-		(size 25.4 27.94)
+		(size 25.4 20.32)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -25021,7 +25003,7 @@
 			)
 		)
 		(property "Sheetfile" "thermistors.kicad_sch"
-			(at 254 57.7346 0)
+			(at 254 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25089,26 +25071,6 @@
 			)
 			(uuid "00c8cf7d-1426-4787-b702-4df77eb52051")
 		)
-		(pin "EN9" input
-			(at 254 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ed300903-347c-437c-90bd-d9aaa4eb5e21")
-		)
-		(pin "EN10" input
-			(at 254 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e3b08a3b-1d56-4248-8bfc-edc8bab8f410")
-		)
 		(pin "EN7" input
 			(at 254 48.26 180)
 			(effects
@@ -25118,16 +25080,6 @@
 				(justify left)
 			)
 			(uuid "6be6852c-f842-4116-bce7-76905808d1bc")
-		)
-		(pin "EN8" input
-			(at 254 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "76a3c362-7f99-4641-879c-bf5f9345cf51")
 		)
 		(pin "EN6" input
 			(at 254 45.72 180)

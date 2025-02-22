@@ -299,7 +299,7 @@
 			)
 		)
 	)
-	(symbol "LMR51610"
+	(symbol "LMR516xx"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -311,7 +311,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR51610"
+		(property "Value" "LMR516xx"
 			(at 10.16 1.27 0)
 			(effects
 				(font
@@ -364,7 +364,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LMR51610_0_0"
+		(symbol "LMR516xx_0_0"
 			(pin input line
 				(at 17.78 -2.54 180)
 				(length 2.54)
@@ -474,7 +474,7 @@
 				)
 			)
 		)
-		(symbol "LMR51610_1_1"
+		(symbol "LMR516xx_1_1"
 			(rectangle
 				(start 0 0)
 				(end 15.24 -12.7)

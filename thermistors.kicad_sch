@@ -2178,7 +2178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "S20B-PUDSS-1"
+		(property "Dist #" "C495200"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -2187,7 +2187,25 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Thermistor connector"
+		(property "Mfr" "JST"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "S20B-PUDSS-1(LF)(SN)"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -2319,7 +2337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "On-board thermistor"
+		(property "Dist #" "C525660"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -2328,7 +2346,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " SDNT1608X103F3435FTF"
+		(property "Mfr" " Sunlord"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "SDNT1608X103F3435FTF"
+			(at 60.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -2405,7 +2441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "S20B-PUDSS-1"
+		(property "Dist #" "C495200"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -2414,7 +2450,25 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Thermistor connector"
+		(property "Mfr" "JST"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "S20B-PUDSS-1(LF)(SN)"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -2546,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "On-board thermistor"
+		(property "Dist #" "C525660"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -2555,7 +2609,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " SDNT1608X103F3435FTF"
+		(property "Mfr" " Sunlord"
+			(at 60.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "SDNT1608X103F3435FTF"
+			(at 60.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -2633,7 +2705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "On-board thermistor"
+		(property "Dist #" "C525660"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -2642,7 +2714,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " SDNT1608X103F3435FTF"
+		(property "Mfr" " Sunlord"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "SDNT1608X103F3435FTF"
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 60.96 38.1 0)
 			(effects
 				(font

@@ -681,7 +681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06ec5779-a609-4fc9-a61b-24260e5d2b94")
-		(property "Reference" "R75"
+		(property "Reference" "R68"
 			(at 66.04 69.85 90)
 			(effects
 				(font
@@ -724,7 +724,34 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Thermistor MOSFET gate resistor"
+		(property "Dist #" "C22775"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uni-Royal"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0603WAF1000T5E"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -785,7 +812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78546b1d-a376-46ab-b446-f99c3e4bc2ce")
-		(property "Reference" "Q23"
+		(property "Reference" "Q16"
 			(at 80.01 73.66 0)
 			(effects
 				(font
@@ -833,7 +860,34 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Balance MOSFET"
+		(property "Dist #" "C347475"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "UMW"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "AO3400A"
+			(at 74.93 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -898,7 +952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e91345fe-d274-4133-bf9a-47837937504f")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR09"
 			(at 77.47 87.63 0)
 			(effects
 				(font

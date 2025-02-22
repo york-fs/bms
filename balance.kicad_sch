@@ -939,7 +939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Balance MOSFET gate resistor"
+		(property "Dist #" "C4211"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -948,7 +948,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "0603WAF3001T5E"
+		(property "Mfr" "Uni-Royal"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0603WAF3001T5E"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 120.65 62.23 0)
 			(effects
 				(font
@@ -1070,7 +1088,34 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Balance active LED resistor"
+		(property "Dist #" "C23138"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Uni-Royal"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "0603WAF3300T5E"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -1192,7 +1237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " RPL-12K10R0FT"
+		(property "Dist #" "C2991665"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -1201,7 +1246,25 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Balance resistor"
+		(property "Mfr" "FH"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "RPL-12K10R0FT"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 132.08 50.8 0)
 			(effects
 				(font
@@ -1324,7 +1387,34 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Balance active LED"
+		(property "Dist #" "C84263"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Foshan NationStar Optoelectronics"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "NCD0603R1"
+			(at 137.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 137.16 52.07 0)
 			(effects
 				(font
@@ -1449,7 +1539,34 @@
 				(hide yes)
 			)
 		)
-		(property "Role" "Balance MOSFET"
+		(property "Dist #" "C347475"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "UMW"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "AO3400A"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
 			(at 129.54 62.23 0)
 			(effects
 				(font

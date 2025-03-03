@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Battery Management System")
+		(date "2025-03-03")
+		(rev "1")
+		(company "York Formula Student")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)

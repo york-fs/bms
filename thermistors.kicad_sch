@@ -2748,7 +2748,7 @@
 			(uuid "a56dee99-355a-4bd2-9ed0-b93047cee8fc")
 		)
 		(instances
-			(project ""
+			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7/22f96080-372f-4edc-adbb-6967cdfa7222"
 					(reference "TH1")
 					(unit 1)

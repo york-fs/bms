@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "40e5eaba-20f3-46d2-8b1f-acbc06effbd9")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,6 +110,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -1318,6 +1323,10 @@
 	(sheet
 		(at 38.1 22.86)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1347,33 +1356,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 24.13 180)
+			(uuid "66ebc3a1-3520-41c8-9b19-7f66bf777c0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "66ebc3a1-3520-41c8-9b19-7f66bf777c0b")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 26.67 180)
+			(uuid "04282c51-57e6-4c67-855d-ff409cb1ee5f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "04282c51-57e6-4c67-855d-ff409cb1ee5f")
 		)
 		(pin "BAn" input
 			(at 54.61 26.67 0)
+			(uuid "6b1b4c7d-8a6b-4fc7-b8c4-0702213470d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6b1b4c7d-8a6b-4fc7-b8c4-0702213470d7")
 		)
 		(instances
 			(project "bms"
@@ -1386,6 +1395,10 @@
 	(sheet
 		(at 38.1 124.46)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1415,33 +1428,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 125.73 180)
+			(uuid "cf44a726-067b-43e1-870e-a83ece7798b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cf44a726-067b-43e1-870e-a83ece7798b9")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 128.27 180)
+			(uuid "0d6f18a9-cc8c-4bf7-9fa8-874b33fe810c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0d6f18a9-cc8c-4bf7-9fa8-874b33fe810c")
 		)
 		(pin "BAn" input
 			(at 54.61 128.27 0)
+			(uuid "f0cdb686-efd4-4730-a6b1-5a30a8d6b4a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f0cdb686-efd4-4730-a6b1-5a30a8d6b4a5")
 		)
 		(instances
 			(project "bms"
@@ -1454,6 +1467,10 @@
 	(sheet
 		(at 38.1 73.66)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1483,33 +1500,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 74.93 180)
+			(uuid "a56ba208-03ee-4e5a-8bfb-d47033977a77")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a56ba208-03ee-4e5a-8bfb-d47033977a77")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 77.47 180)
+			(uuid "14598228-8f3c-4046-93fe-f00ff5ddd285")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14598228-8f3c-4046-93fe-f00ff5ddd285")
 		)
 		(pin "BAn" input
 			(at 54.61 77.47 0)
+			(uuid "9eac47e2-37e7-439f-9c27-4b2c0f1062d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9eac47e2-37e7-439f-9c27-4b2c0f1062d2")
 		)
 		(instances
 			(project "bms"
@@ -1522,6 +1539,10 @@
 	(sheet
 		(at 38.1 111.76)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1551,33 +1572,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 113.03 180)
+			(uuid "a7712ec7-3e40-4456-a007-8a44eecd7dbd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a7712ec7-3e40-4456-a007-8a44eecd7dbd")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 115.57 180)
+			(uuid "adc864b1-299c-4d8f-96b2-f601a70440b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "adc864b1-299c-4d8f-96b2-f601a70440b4")
 		)
 		(pin "BAn" input
 			(at 54.61 115.57 0)
+			(uuid "5436a0d3-9b32-4abf-8134-86a9ad2d02f0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5436a0d3-9b32-4abf-8134-86a9ad2d02f0")
 		)
 		(instances
 			(project "bms"
@@ -1590,6 +1611,10 @@
 	(sheet
 		(at 38.1 149.86)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1619,33 +1644,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 151.13 180)
+			(uuid "f6699c96-c9a1-4ddd-8e15-a847022cf385")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f6699c96-c9a1-4ddd-8e15-a847022cf385")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 153.67 180)
+			(uuid "f3e47c1d-4de2-4a2c-a984-728d0cf7b298")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f3e47c1d-4de2-4a2c-a984-728d0cf7b298")
 		)
 		(pin "BAn" input
 			(at 54.61 153.67 0)
+			(uuid "39b0b949-24da-4320-9eaa-2dfecc887289")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "39b0b949-24da-4320-9eaa-2dfecc887289")
 		)
 		(instances
 			(project "bms"
@@ -1658,6 +1683,10 @@
 	(sheet
 		(at 38.1 137.16)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1687,33 +1716,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 138.43 180)
+			(uuid "2d90f66f-9941-4d03-a8da-55cb8d235c15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2d90f66f-9941-4d03-a8da-55cb8d235c15")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 140.97 180)
+			(uuid "5ed28ab7-5e3e-4a36-842a-13f042bf2e09")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5ed28ab7-5e3e-4a36-842a-13f042bf2e09")
 		)
 		(pin "BAn" input
 			(at 54.61 140.97 0)
+			(uuid "3937fe4d-5e2f-4805-b47e-7174429aee09")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3937fe4d-5e2f-4805-b47e-7174429aee09")
 		)
 		(instances
 			(project "bms"
@@ -1726,6 +1755,10 @@
 	(sheet
 		(at 38.1 35.56)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1755,33 +1788,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 36.83 180)
+			(uuid "b7176a69-b3f3-4c53-80f8-59c41ec94e9b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b7176a69-b3f3-4c53-80f8-59c41ec94e9b")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 39.37 180)
+			(uuid "496ab0cf-e9cd-4bf3-95c7-0bdc7bfdbb2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "496ab0cf-e9cd-4bf3-95c7-0bdc7bfdbb2e")
 		)
 		(pin "BAn" input
 			(at 54.61 39.37 0)
+			(uuid "b86a561d-f585-4260-96b6-f3eb8447926a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b86a561d-f585-4260-96b6-f3eb8447926a")
 		)
 		(instances
 			(project "bms"
@@ -1794,6 +1827,10 @@
 	(sheet
 		(at 38.1 48.26)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1823,33 +1860,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 49.53 180)
+			(uuid "00c59755-c2c2-4f2d-977d-2e919939ff78")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "00c59755-c2c2-4f2d-977d-2e919939ff78")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 52.07 180)
+			(uuid "c22342a2-42ca-47e7-892a-b871578342d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c22342a2-42ca-47e7-892a-b871578342d7")
 		)
 		(pin "BAn" input
 			(at 54.61 52.07 0)
+			(uuid "f347bf30-6115-46f8-ba0e-6bdc1fdb0c32")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f347bf30-6115-46f8-ba0e-6bdc1fdb0c32")
 		)
 		(instances
 			(project "bms"
@@ -1862,6 +1899,10 @@
 	(sheet
 		(at 38.1 162.56)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1891,33 +1932,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 163.83 180)
+			(uuid "a7a336c2-e60c-42d4-a5d9-c1cd7dab5816")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a7a336c2-e60c-42d4-a5d9-c1cd7dab5816")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 166.37 180)
+			(uuid "4f881247-0ecd-41ef-b7e4-ee3211d06ecc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4f881247-0ecd-41ef-b7e4-ee3211d06ecc")
 		)
 		(pin "BAn" input
 			(at 54.61 166.37 0)
+			(uuid "1aa67faf-48ef-4eb4-877b-94f50949f380")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1aa67faf-48ef-4eb4-877b-94f50949f380")
 		)
 		(instances
 			(project "bms"
@@ -1930,6 +1971,10 @@
 	(sheet
 		(at 38.1 86.36)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1959,33 +2004,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 87.63 180)
+			(uuid "689c8c16-0627-4838-ac94-7b31e512a862")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "689c8c16-0627-4838-ac94-7b31e512a862")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 90.17 180)
+			(uuid "18c3954b-0836-43c0-a291-3926b11bc5f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "18c3954b-0836-43c0-a291-3926b11bc5f1")
 		)
 		(pin "BAn" input
 			(at 54.61 90.17 0)
+			(uuid "e4dc6b2f-de58-49fd-9068-24e907dab9ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e4dc6b2f-de58-49fd-9068-24e907dab9ee")
 		)
 		(instances
 			(project "bms"
@@ -1998,6 +2043,10 @@
 	(sheet
 		(at 38.1 60.96)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2027,33 +2076,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 62.23 180)
+			(uuid "b470c07b-564e-4270-bbd9-b717e3cf93d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b470c07b-564e-4270-bbd9-b717e3cf93d2")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 64.77 180)
+			(uuid "51d8f519-d01a-455e-8692-4ca779ba0545")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "51d8f519-d01a-455e-8692-4ca779ba0545")
 		)
 		(pin "BAn" input
 			(at 54.61 64.77 0)
+			(uuid "3e08b8d1-e9cb-461a-9894-71ab9cb0899f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3e08b8d1-e9cb-461a-9894-71ab9cb0899f")
 		)
 		(instances
 			(project "bms"
@@ -2066,6 +2115,10 @@
 	(sheet
 		(at 38.1 99.06)
 		(size 16.51 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2095,33 +2148,33 @@
 		)
 		(pin "TAPn" input
 			(at 38.1 100.33 180)
+			(uuid "92dd0d15-15b8-47b3-a03a-bbe311a9af72")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "92dd0d15-15b8-47b3-a03a-bbe311a9af72")
 		)
 		(pin "TAPn-1" input
 			(at 38.1 102.87 180)
+			(uuid "53e4e8d8-12c0-4f34-9e3e-f2c95587a055")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "53e4e8d8-12c0-4f34-9e3e-f2c95587a055")
 		)
 		(pin "BAn" input
 			(at 54.61 102.87 0)
+			(uuid "50e87e1d-89e5-41b9-a956-d4a6c2a8215f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "50e87e1d-89e5-41b9-a956-d4a6c2a8215f")
 		)
 		(instances
 			(project "bms"

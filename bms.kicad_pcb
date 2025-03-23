@@ -56796,7 +56796,7 @@
 	(gr_arc
 		(start 57.2 107.75)
 		(mid 58.2 106.75)
-		(end 59.2 107.750001)
+		(end 59.2 107.75)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -56826,8 +56826,8 @@
 		(uuid "b3ac3f47-11fc-4b03-b8f9-7acb4656e8d7")
 	)
 	(gr_line
-		(start 59.2 107.750001)
-		(end 59.2 117.749999)
+		(start 59.2 107.75)
+		(end 59.2 117.75)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -56836,7 +56836,7 @@
 		(uuid "d18fc55b-6b2e-474b-a0be-484cab4c8dcb")
 	)
 	(gr_arc
-		(start 59.2 117.749999)
+		(start 59.2 117.75)
 		(mid 58.200001 118.75)
 		(end 57.2 117.75)
 		(stroke

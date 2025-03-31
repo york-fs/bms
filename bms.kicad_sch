@@ -1507,156 +1507,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener_Small"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
@@ -6829,12 +6679,6 @@
 		(uuid "7ba89de1-a73d-4c95-9913-4b6eb7e7ca14")
 	)
 	(junction
-		(at 124.46 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cfc47ff-1243-4a34-8e49-dc49dc513758")
-	)
-	(junction
 		(at 187.96 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6881,12 +6725,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a261cdd8-2256-4d4a-b083-a2158607d864")
-	)
-	(junction
-		(at 139.7 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2d5fde8-9cf1-4223-83f5-b4c1882079e2")
 	)
 	(junction
 		(at 57.15 46.99)
@@ -6965,12 +6803,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc4606b8-7a0c-48fd-8b0c-c042caac6436")
-	)
-	(junction
-		(at 109.22 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd4fec01-0068-4dad-923f-fe64aeb4084c")
 	)
 	(junction
 		(at 109.22 128.27)
@@ -7544,16 +7376,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 135.89) (xy 139.7 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207e1f5a-a03d-4480-aa3b-20246a459f3d")
-	)
-	(wire
-		(pts
 			(xy 213.36 124.46) (xy 213.36 123.19)
 		)
 		(stroke
@@ -7631,16 +7453,6 @@
 			(type default)
 		)
 		(uuid "261c0845-e48d-4257-8bfb-5def08d1968f")
-	)
-	(wire
-		(pts
-			(xy 124.46 138.43) (xy 125.73 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26753b52-f91f-4dcd-82bc-b7bdde50d9aa")
 	)
 	(wire
 		(pts
@@ -8104,7 +7916,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 135.89) (xy 124.46 138.43)
+			(xy 124.46 135.89) (xy 124.46 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8314,16 +8126,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 135.89) (xy 109.22 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0b000b-b807-4cfb-803a-327cc09a0f9a")
-	)
-	(wire
-		(pts
 			(xy 205.74 25.4) (xy 205.74 24.13)
 		)
 		(stroke
@@ -8394,7 +8196,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.43) (xy 109.22 140.97)
+			(xy 109.22 135.89) (xy 109.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8554,16 +8356,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 138.43) (xy 146.05 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668a7bb0-436d-4639-a1fe-dbf4e3e676da")
-	)
-	(wire
-		(pts
 			(xy 88.9 139.7) (xy 88.9 140.97)
 		)
 		(stroke
@@ -8611,16 +8403,6 @@
 			(type default)
 		)
 		(uuid "6a787474-7dd1-4e30-869c-71bae3c14395")
-	)
-	(wire
-		(pts
-			(xy 139.7 138.43) (xy 140.97 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8c4170-e6aa-4a7c-a8e1-478107723c2d")
 	)
 	(wire
 		(pts
@@ -8704,16 +8486,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 138.43) (xy 130.81 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8445a9-3070-43ec-abc8-333e662db537")
-	)
-	(wire
-		(pts
 			(xy 124.46 127) (xy 124.46 128.27)
 		)
 		(stroke
@@ -8781,16 +8553,6 @@
 			(type default)
 		)
 		(uuid "72ea5efc-4d76-498b-8c20-e897785592ec")
-	)
-	(wire
-		(pts
-			(xy 109.22 138.43) (xy 110.49 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732b126f-d07c-4822-a861-88ba1edc51b3")
 	)
 	(wire
 		(pts
@@ -8951,16 +8713,6 @@
 			(type default)
 		)
 		(uuid "7cc412c5-178f-4e76-b4b8-fe9e18e92bb9")
-	)
-	(wire
-		(pts
-			(xy 116.84 138.43) (xy 115.57 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d82b498-0d7d-4c4c-945f-6ce37d2142c3")
 	)
 	(wire
 		(pts
@@ -9384,16 +9136,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 138.43) (xy 124.46 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1718fc9-276c-4bd9-848c-555a0dc36a37")
-	)
-	(wire
-		(pts
 			(xy 46.99 133.35) (xy 46.99 134.62)
 		)
 		(stroke
@@ -9524,16 +9266,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 139.7) (xy 132.08 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace6dc89-0987-4dac-9219-3042917035ce")
-	)
-	(wire
-		(pts
 			(xy 229.87 22.86) (xy 229.87 21.59)
 		)
 		(stroke
@@ -9601,16 +9333,6 @@
 			(type default)
 		)
 		(uuid "b0be2c24-dfc6-4877-8279-ff8a89bbba74")
-	)
-	(wire
-		(pts
-			(xy 116.84 139.7) (xy 116.84 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b11b4436-e2b4-41f7-9ea3-4cdea396669b")
 	)
 	(wire
 		(pts
@@ -10244,7 +9966,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 138.43) (xy 139.7 140.97)
+			(xy 139.7 135.89) (xy 139.7 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10281,16 +10003,6 @@
 			(type default)
 		)
 		(uuid "db2625c8-695a-4e08-8ee0-fcc8951be12b")
-	)
-	(wire
-		(pts
-			(xy 147.32 139.7) (xy 147.32 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db333736-665d-4626-ab85-bb5af76eecdc")
 	)
 	(wire
 		(pts
@@ -13317,7 +13029,6 @@
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 109.22 133.35 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13325,7 +13036,7 @@
 		(dnp no)
 		(uuid "19a69eb4-4422-4028-b91f-c8bc9a552d28")
 		(property "Reference" "R23"
-			(at 107.95 132.08 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,7 +13045,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 107.95 134.62 0)
+			(at 110.49 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17944,73 +17655,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f0c7e4a-7a7e-4b51-a2bd-095eb5bbb003")
-		(property "Reference" "#PWR023"
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad9de0a5-211c-447b-a8a7-99456e5fdd21")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 267.97 85.09 0)
 		(unit 1)
@@ -19021,7 +18665,6 @@
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 139.7 133.35 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19029,7 +18672,7 @@
 		(dnp no)
 		(uuid "6dd30914-997b-4222-8898-f828d249deca")
 		(property "Reference" "R27"
-			(at 138.43 132.08 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19038,7 +18681,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 138.43 134.62 0)
+			(at 140.97 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19776,73 +19419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80597811-01d8-4991-903a-b4530f3c150c")
-		(property "Reference" "#PWR025"
-			(at 132.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fbfc5c9-496f-41b6-8a17-c0c6af92cb56")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
 		(at 101.6 22.86 0)
 		(mirror y)
@@ -20007,109 +19583,6 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 113.03 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86c1ff7e-7028-433e-8f6a-01553c32624b")
-		(property "Reference" "D2"
-			(at 113.03 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V6"
-			(at 113.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 113.03 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 113.03 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" " C19077438"
-			(at 113.03 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "hongjiacheng"
-			(at 113.03 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "BZT52C3V6S"
-			(at 113.03 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 113.03 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcfd27ac-718d-4a35-a2f8-10683ad5d10c")
-		)
-		(pin "2"
-			(uuid "cc48d4af-8878-431f-9f96-0d28338b5edd")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -23289,109 +22762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 128.27 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2a80a09-5f3f-47b5-b3b8-5b5127d1e402")
-		(property "Reference" "D3"
-			(at 128.27 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V6"
-			(at 128.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 128.27 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 128.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" " C19077438"
-			(at 128.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "hongjiacheng"
-			(at 128.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "BZT52C3V6S"
-			(at 128.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 128.27 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66da2d72-4d48-48aa-a575-aba17b2c6b76")
-		)
-		(pin "2"
-			(uuid "aaa81397-390b-475e-9ebe-d3e5f06212e1")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 181.61 80.01 0)
 		(unit 1)
@@ -25075,7 +24445,6 @@
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 124.46 133.35 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25083,7 +24452,7 @@
 		(dnp no)
 		(uuid "dec1af2b-9e94-4016-83c4-7f16a4a1dd63")
 		(property "Reference" "R25"
-			(at 123.19 132.08 0)
+			(at 125.73 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25092,7 +24461,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 123.19 134.62 0)
+			(at 125.73 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25785,109 +25154,6 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener_Small")
-		(at 143.51 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec1db956-d45c-42ec-af17-f8f96c9faf90")
-		(property "Reference" "D4"
-			(at 143.51 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V6"
-			(at 143.51 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 143.51 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode, small symbol"
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist #" " C19077438"
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "hongjiacheng"
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr #" "BZT52C3V6S"
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" "LCSC"
-			(at 143.51 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68b8bc0e-a2bd-44d9-862d-2cda3084e11a")
-		)
-		(pin "2"
-			(uuid "d390f288-435e-4225-a239-13bbceadf971")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -26850,73 +26116,6 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffcc6cff-19c3-4aa9-80f7-4306c1666aeb")
-		(property "Reference" "#PWR027"
-			(at 147.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "481e4f29-7d48-4dbf-9ae5-07b35f8c0b1e")
-		)
-		(instances
-			(project "bms"
-				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)

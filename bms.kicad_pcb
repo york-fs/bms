@@ -10116,7 +10116,7 @@
 				)
 			)
 		)
-		(property "Dist #" " C2153714"
+		(property "Dist #" "C2153714"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15411,7 +15411,7 @@
 				)
 			)
 		)
-		(property "Mfr" " Sunlord"
+		(property "Mfr" "Sunlord"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18091,7 +18091,7 @@
 				)
 			)
 		)
-		(property "Mfr" " Sunlord"
+		(property "Mfr" "Sunlord"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20752,7 +20752,7 @@
 				)
 			)
 		)
-		(property "Mfr" " Sunlord"
+		(property "Mfr" "Sunlord"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

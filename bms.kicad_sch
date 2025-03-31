@@ -21729,7 +21729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" " C2153714"
+		(property "Dist #" "C2153714"
 			(at 69.85 74.93 0)
 			(effects
 				(font

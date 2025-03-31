@@ -2333,7 +2333,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" ""
+			(property "Dist #" "C8734"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2342,7 +2342,25 @@
 					(hide yes)
 				)
 			)
-			(property "Role" "Main STM32 processor"
+			(property "Mfr" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr #" "STM32F103C8T6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dist" "LCSC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2561,7 +2579,7 @@
 					(alternate "USART1_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -17.78 -5.08 0)
+					(at -17.78 -7.62 0)
 					(length 2.54)
 					(name "PB4"
 						(effects
@@ -2580,27 +2598,6 @@
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "SYS_NJTRST" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 2.54)
-					(name "PB5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "I2C1_SMBA" bidirectional line)
-					(alternate "SPI1_MOSI" bidirectional line)
-					(alternate "TIM3_CH2" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -17.78 -10.16 0)
@@ -3269,6 +3266,27 @@
 				)
 				(pin bidirectional line
 					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "I2C1_SMBA" bidirectional line)
+					(alternate "SPI1_MOSI" bidirectional line)
+					(alternate "TIM3_CH2" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 -13.97 180)
 					(length 2.54)
 					(name "PA15"
 						(effects
@@ -6841,6 +6859,10 @@
 		(uuid "fafaef9e-5d68-477f-935a-2a1b68510ef7")
 	)
 	(no_connect
+		(at 250.19 77.47)
+		(uuid "228fe79e-8df2-4ca3-bff4-c44734cb20c4")
+	)
+	(no_connect
 		(at 250.19 50.8)
 		(uuid "25c05a42-6e17-48e5-abcf-eceaf50a33aa")
 	)
@@ -6855,10 +6877,6 @@
 	(no_connect
 		(at 214.63 71.12)
 		(uuid "4f06fd28-9c63-4124-b2ec-7ffee293f2e2")
-	)
-	(no_connect
-		(at 214.63 68.58)
-		(uuid "544364aa-1530-4cf0-8ae5-b71e840a5eaf")
 	)
 	(no_connect
 		(at 214.63 50.8)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Battery Management System")
-		(date "2025-02-08")
-		(rev "1")
+		(date "2025-03-31")
+		(rev "B")
 		(company "York Formula Student")
 	)
 	(lib_symbols

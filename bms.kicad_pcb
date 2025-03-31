@@ -18641,7 +18641,7 @@
 		(path "/49b1545c-6dc3-4492-9213-cb8f9a092902")
 		(sheetname "/")
 		(sheetfile "bms.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.140581 -0.51)
 			(end 0.140581 -0.51)
@@ -35073,7 +35073,7 @@
 		(path "/461a792f-ba40-45d5-b6d8-4c513fcbd7a6")
 		(sheetname "/")
 		(sheetfile "bms.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.140581 0.51)
 			(end 0.140581 0.51)
@@ -41806,7 +41806,7 @@
 		(path "/4ad04bc2-1ed7-4adf-9287-d4d7139f0516")
 		(sheetname "/")
 		(sheetfile "bms.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 2.7 -1.8)
 			(end -3.05 -1.8)

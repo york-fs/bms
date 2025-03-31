@@ -4392,7 +4392,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_QFP:TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm"
+			(property "Footprint" "Package_QFP:TQFP-64-1EP_10x10mm_P0.5mm_EP5.305x5.305mm"
 				(at -6.858 -133.604 90)
 				(effects
 					(font
@@ -21252,7 +21252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm"
+		(property "Footprint" "Package_QFP:TQFP-64-1EP_10x10mm_P0.5mm_EP5.305x5.305mm"
 			(at 89.154 166.878 90)
 			(effects
 				(font

@@ -874,5 +874,7 @@
       "Cell Group 7"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "REVISION": "B"
+  }
 }

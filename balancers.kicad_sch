@@ -7,7 +7,7 @@
 	(title_block
 		(title "Battery Management System")
 		(date "2025-03-31")
-		(rev "B")
+		(rev "${REVISION}")
 		(company "York Formula Student")
 	)
 	(lib_symbols

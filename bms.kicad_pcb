@@ -27983,7 +27983,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at -3.374999 0.15 180)
+			(at -3.4 0 180)
 			(layer "F.SilkS")
 			(uuid "167cc512-b1ae-4145-8878-ea73c42a6e15")
 			(effects
@@ -40922,7 +40922,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at -3.175 0 180)
+			(at -3.4 0 180)
 			(layer "F.SilkS")
 			(uuid "a6a37f95-54df-459e-a255-08f7c254d1c2")
 			(effects

@@ -447,7 +447,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3400A"
+		(symbol "bms:IRLML0060"
 			(pin_names
 				(hide yes)
 			)
@@ -463,7 +463,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "IRLML0060"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -483,7 +483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -493,7 +493,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -502,7 +502,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
 				(at 0 0 0)
 				(effects
 					(font
@@ -520,7 +520,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO3400A_0_1"
+			(symbol "IRLML0060_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -687,7 +687,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "IRLML0060_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1517,7 +1517,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "bms:IRLML0060")
 		(at 129.54 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1534,7 +1534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 134.62 63.5 0)
 			(effects
 				(font
@@ -1554,7 +1554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 134.62 66.04 0)
 			(effects
 				(font
@@ -1564,7 +1564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -1573,7 +1573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -1582,7 +1582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 129.54 62.23 0)
 			(effects
 				(font
@@ -1591,7 +1591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 129.54 62.23 0)
 			(effects
 				(font

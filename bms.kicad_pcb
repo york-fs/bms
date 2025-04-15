@@ -6340,7 +6340,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "0ff45b9b-8154-4d07-a8d7-a107c40a142e")
@@ -6351,7 +6351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6364,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6390,7 +6390,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6403,7 +6403,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8453,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "5d02ed05-99e4-40dc-a65f-a2c87e53b060")
@@ -8464,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8477,7 +8477,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8490,7 +8490,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8503,7 +8503,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8516,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17493,7 +17493,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "1b702497-b872-4db8-8f93-615f7f778558")
@@ -17504,7 +17504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17517,7 +17517,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17530,7 +17530,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17543,7 +17543,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17556,7 +17556,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26419,7 +26419,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "8665524e-25c2-49ca-8bc4-971eb47be9ba")
@@ -26430,7 +26430,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26443,7 +26443,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26456,7 +26456,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26469,7 +26469,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26482,7 +26482,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29693,7 +29693,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "a6d3152e-30df-4d92-868e-a4d57b7fd95d")
@@ -29704,7 +29704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29717,7 +29717,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29730,7 +29730,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29743,7 +29743,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29756,7 +29756,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38302,7 +38302,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "66b0fe57-04b5-4852-a7d8-046ceb4cd076")
@@ -38313,7 +38313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38326,7 +38326,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38339,7 +38339,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38352,7 +38352,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38365,7 +38365,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40119,7 +40119,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "dd5dccd4-f9c9-4543-bdce-a48d6b121438")
@@ -40130,7 +40130,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40143,7 +40143,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40156,7 +40156,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40169,7 +40169,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40182,7 +40182,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43001,7 +43001,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "84daaf13-c91d-4bf4-bb2d-02870893b010")
@@ -43012,7 +43012,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43025,7 +43025,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43038,7 +43038,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43051,7 +43051,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43064,7 +43064,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47256,7 +47256,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "63b4632b-7872-4888-b549-8a895ca44f6d")
@@ -47267,7 +47267,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47280,7 +47280,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47293,7 +47293,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47306,7 +47306,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47319,7 +47319,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47818,7 +47818,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "7a30cb28-2fe2-4748-8351-d11afb78d921")
@@ -47829,7 +47829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47842,7 +47842,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47855,7 +47855,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47868,7 +47868,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47881,7 +47881,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48126,7 +48126,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "3bbfac71-77b6-434e-9390-0321625b1b1f")
@@ -48137,7 +48137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48150,7 +48150,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48163,7 +48163,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48176,7 +48176,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48189,7 +48189,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49704,7 +49704,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "IRLML0060"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "492b57ea-33ba-4318-a46a-20779fcd6fb4")
@@ -49715,7 +49715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml0060pbf.pdf?fileId=5546d462533600a40153566493ef25e6"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49728,7 +49728,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "2.7A Id, 60V Vds, 92mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49741,7 +49741,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C67274"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49754,7 +49754,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "Infineon"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49767,7 +49767,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "IRLML0060TRPBF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

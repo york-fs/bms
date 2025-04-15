@@ -12337,7 +12337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -12364,7 +12364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -12373,7 +12373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -12382,7 +12382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 72.39 182.88 0)
 			(effects
 				(font
@@ -13779,7 +13779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 49.53 182.88 0)
 			(effects
 				(font
@@ -13806,7 +13806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 49.53 182.88 0)
 			(effects
 				(font
@@ -13815,7 +13815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 49.53 182.88 0)
 			(effects
 				(font
@@ -13824,7 +13824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 49.53 182.88 0)
 			(effects
 				(font
@@ -14163,7 +14163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.01 182.88 0)
 			(effects
 				(font
@@ -14190,7 +14190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 80.01 182.88 0)
 			(effects
 				(font
@@ -14199,7 +14199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 80.01 182.88 0)
 			(effects
 				(font
@@ -14208,7 +14208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 80.01 182.88 0)
 			(effects
 				(font
@@ -14729,7 +14729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.63 182.88 0)
 			(effects
 				(font
@@ -14756,7 +14756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 87.63 182.88 0)
 			(effects
 				(font
@@ -14765,7 +14765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 87.63 182.88 0)
 			(effects
 				(font
@@ -14774,7 +14774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 87.63 182.88 0)
 			(effects
 				(font
@@ -18683,7 +18683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.77 182.88 0)
 			(effects
 				(font
@@ -18710,7 +18710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 64.77 182.88 0)
 			(effects
 				(font
@@ -18719,7 +18719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 64.77 182.88 0)
 			(effects
 				(font
@@ -18728,7 +18728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 64.77 182.88 0)
 			(effects
 				(font
@@ -18892,7 +18892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 95.25 182.88 0)
 			(effects
 				(font
@@ -18919,7 +18919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 95.25 182.88 0)
 			(effects
 				(font
@@ -18928,7 +18928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 95.25 182.88 0)
 			(effects
 				(font
@@ -18937,7 +18937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 95.25 182.88 0)
 			(effects
 				(font
@@ -21433,7 +21433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 57.15 182.88 0)
 			(effects
 				(font
@@ -21460,7 +21460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 57.15 182.88 0)
 			(effects
 				(font
@@ -21469,7 +21469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 57.15 182.88 0)
 			(effects
 				(font
@@ -21478,7 +21478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 57.15 182.88 0)
 			(effects
 				(font
@@ -21711,7 +21711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.49 182.88 0)
 			(effects
 				(font
@@ -21738,7 +21738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 110.49 182.88 0)
 			(effects
 				(font
@@ -21747,7 +21747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 110.49 182.88 0)
 			(effects
 				(font
@@ -21756,7 +21756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 110.49 182.88 0)
 			(effects
 				(font
@@ -22346,7 +22346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.87 182.88 0)
 			(effects
 				(font
@@ -22373,7 +22373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 102.87 182.88 0)
 			(effects
 				(font
@@ -22382,7 +22382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 102.87 182.88 0)
 			(effects
 				(font
@@ -22391,7 +22391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 102.87 182.88 0)
 			(effects
 				(font
@@ -24904,7 +24904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -24931,7 +24931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -24940,7 +24940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -24949,7 +24949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 125.73 182.88 0)
 			(effects
 				(font
@@ -26858,7 +26858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 118.11 182.88 0)
 			(effects
 				(font
@@ -26885,7 +26885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 118.11 182.88 0)
 			(effects
 				(font
@@ -26894,7 +26894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 118.11 182.88 0)
 			(effects
 				(font
@@ -26903,7 +26903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 118.11 182.88 0)
 			(effects
 				(font
@@ -27238,7 +27238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.91 182.88 0)
 			(effects
 				(font
@@ -27265,7 +27265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C5199872"
+		(property "Dist #" "C126592"
 			(at 41.91 182.88 0)
 			(effects
 				(font
@@ -27274,7 +27274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Samsung"
+		(property "Mfr" "Murata"
 			(at 41.91 182.88 0)
 			(effects
 				(font
@@ -27283,7 +27283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "CL10B105KB8NQNC"
+		(property "Mfr #" "GCM21BR71H105KA03L"
 			(at 41.91 182.88 0)
 			(effects
 				(font

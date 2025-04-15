@@ -2343,7 +2343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C525660"
+		(property "Dist #" "C13564"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -2352,7 +2352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Sunlord"
+		(property "Mfr" "Murata"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -2361,7 +2361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "SDNT1608X103F3435FTF"
+		(property "Mfr #" "NCP18XH103F03RB"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C525660"
+		(property "Dist #" "C13564"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -2615,7 +2615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Sunlord"
+		(property "Mfr" "Murata"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -2624,7 +2624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "SDNT1608X103F3435FTF"
+		(property "Mfr #" "NCP18XH103F03RB"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -2711,7 +2711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C525660"
+		(property "Dist #" "C13564"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -2720,7 +2720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Sunlord"
+		(property "Mfr" "Murata"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -2729,7 +2729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "SDNT1608X103F3435FTF"
+		(property "Mfr #" "NCP18XH103F03RB"
 			(at 60.96 38.1 0)
 			(effects
 				(font

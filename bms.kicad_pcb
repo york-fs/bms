@@ -15754,7 +15754,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C525660"
+		(property "Dist #" "C13564"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15767,7 +15767,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Sunlord"
+		(property "Mfr" "Murata"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15780,7 +15780,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "SDNT1608X103F3435FTF"
+		(property "Mfr #" "NCP18XH103F03RB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18686,7 +18686,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C525660"
+		(property "Dist #" "C13564"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18699,7 +18699,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Sunlord"
+		(property "Mfr" "Murata"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18712,7 +18712,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "SDNT1608X103F3435FTF"
+		(property "Mfr #" "NCP18XH103F03RB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21347,7 +21347,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C525660"
+		(property "Dist #" "C13564"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21360,7 +21360,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Sunlord"
+		(property "Mfr" "Murata"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21373,7 +21373,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "SDNT1608X103F3435FTF"
+		(property "Mfr #" "NCP18XH103F03RB"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

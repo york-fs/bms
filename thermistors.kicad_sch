@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Battery Management System")
-		(date "2025-03-31")
+		(date "2025-04-15")
 		(rev "${REVISION}")
 		(company "York Formula Student")
 	)

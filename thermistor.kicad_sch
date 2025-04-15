@@ -138,7 +138,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3400A"
+		(symbol "bms:FDV303N"
 			(pin_names
 				(hide yes)
 			)
@@ -154,7 +154,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "FDV303N"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -174,7 +174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -184,7 +184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 				(at 0 0 0)
 				(effects
 					(font
@@ -193,7 +193,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "N-Channel Digital MOSFET Logic-Level"
 				(at 0 0 0)
 				(effects
 					(font
@@ -211,7 +211,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO3400A_0_1"
+			(symbol "FDV303N_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -378,7 +378,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "FDV303N_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -817,7 +817,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "bms:FDV303N")
 		(at 74.93 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -834,7 +834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 80.01 76.2 0)
 			(effects
 				(font
@@ -854,7 +854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -864,7 +864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -873,7 +873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -882,7 +882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -891,7 +891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 74.93 74.93 0)
 			(effects
 				(font

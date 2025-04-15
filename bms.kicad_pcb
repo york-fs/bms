@@ -6032,7 +6032,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "abef0970-69a8-4568-bab0-edda1e1dbc80")
@@ -6043,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6056,7 +6056,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6069,7 +6069,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6082,7 +6082,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6095,7 +6095,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8145,7 +8145,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "9e3e9146-bff8-4a59-b545-ef534979915e")
@@ -8156,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8169,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8182,7 +8182,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8195,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8208,7 +8208,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13129,7 +13129,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "227be510-63c2-4161-817f-546229afd320")
@@ -13140,7 +13140,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13153,7 +13153,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13166,7 +13166,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13179,7 +13179,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13192,7 +13192,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20713,7 +20713,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "56ffd983-f13a-4689-bbd7-74fdc39986e6")
@@ -20724,7 +20724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20737,7 +20737,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20750,7 +20750,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20763,7 +20763,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20776,7 +20776,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21817,7 +21817,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "cbe357c0-3c64-4679-bcbd-cacaa22877a4")
@@ -21828,7 +21828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21841,7 +21841,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21854,7 +21854,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21867,7 +21867,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21880,7 +21880,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29008,7 +29008,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "d331d6ce-b7d6-4daa-aaf0-7bc68d90e28e")
@@ -29019,7 +29019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29032,7 +29032,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29045,7 +29045,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29058,7 +29058,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29071,7 +29071,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34207,7 +34207,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 45)
 			(layer "F.Fab")
 			(uuid "099a4b5e-b16f-4fa4-a48e-4b2952be8afd")
@@ -34218,7 +34218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34231,7 +34231,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34244,7 +34244,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34257,7 +34257,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34270,7 +34270,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39221,7 +39221,7 @@
 				)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "FDV303N"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "04a288d4-81f9-4474-87a7-1167d16790de")
@@ -39232,7 +39232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/fdv303n-d.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39245,7 +39245,7 @@
 				)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "0.68A Id, 25V Vds, 600mOhm Rds, N-Channel Digital MOSFET, SOT-23, ESD Protected"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39258,7 +39258,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C347475"
+		(property "Dist #" "C80498"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39271,7 +39271,7 @@
 				)
 			)
 		)
-		(property "Mfr" "UMW"
+		(property "Mfr" "onsemi"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39284,7 +39284,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "AO3400A"
+		(property "Mfr #" "FDV303N"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

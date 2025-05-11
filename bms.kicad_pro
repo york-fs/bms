@@ -840,41 +840,9 @@
     [
       "ae51574f-61f5-40a8-84a4-f02d08755389",
       "Cell 12"
-    ],
-    [
-      "f122550a-f09a-4f05-9f89-cb0637def957",
-      "Onboard Group"
-    ],
-    [
-      "8f54f16c-7967-437d-a988-e231275c63ab",
-      "Cell Group 1"
-    ],
-    [
-      "fa95d462-4de0-4934-af70-5f0e8f1d034c",
-      "Cell Group 2"
-    ],
-    [
-      "0433f06a-e410-41f0-ac44-5fd54933f83a",
-      "Cell Group 3"
-    ],
-    [
-      "49c2e3c4-7860-4f6d-8623-5e62cfe4b5da",
-      "Cell Group 4"
-    ],
-    [
-      "2d18db88-48bf-4f90-a8bf-9733e690c890",
-      "Cell Group 5"
-    ],
-    [
-      "301c5f1d-bbeb-4425-8c3b-7023608384ed",
-      "Cell Group 6"
-    ],
-    [
-      "4dd4ec53-b446-4ad2-b248-21bc2e2a3174",
-      "Cell Group 7"
     ]
   ],
   "text_variables": {
-    "REVISION": "C"
+    "REVISION": "D"
   }
 }

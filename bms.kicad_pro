@@ -844,6 +844,7 @@
     ]
   ],
   "text_variables": {
+    "PCB_DATE": "MAY 2025",
     "REVISION": "D"
   }
 }

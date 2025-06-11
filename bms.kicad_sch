@@ -7145,10 +7145,6 @@
 		(at 214.63 48.26)
 		(uuid "f5b3670a-c3b7-42bd-9eb0-57d10951a4a1")
 	)
-	(no_connect
-		(at 109.22 140.97)
-		(uuid "f7b848b9-f6c6-4831-bfd8-cd7108416137")
-	)
 	(wire
 		(pts
 			(xy 133.35 182.88) (xy 133.35 184.15)
@@ -7628,6 +7624,16 @@
 			(type default)
 		)
 		(uuid "236625a8-8e26-40fd-a384-86c9cfc2b8cc")
+	)
+	(wire
+		(pts
+			(xy 109.22 139.7) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2450a42c-a7ad-48dd-b0e0-3642e9c4bab6")
 	)
 	(wire
 		(pts
@@ -19956,6 +19962,71 @@
 			(project "bms"
 				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 109.22 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a064927-dee7-4aa6-aff3-fe4ed8ec3962")
+		(property "Reference" "#PWR09"
+			(at 109.22 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.22 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5a96629-25fe-4a50-850f-b00ccb4110c1")
+		)
+		(instances
+			(project "bms"
+				(path "/ae4a7653-8e6d-4e05-b144-1e5e3b2092b7"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

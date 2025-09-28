@@ -445,7 +445,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bms:IRLML0060"
+		(symbol "yfs:IRLML0060"
 			(pin_names
 				(hide yes)
 			)
@@ -1515,7 +1515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bms:IRLML0060")
+		(lib_id "yfs:IRLML0060")
 		(at 129.54 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)

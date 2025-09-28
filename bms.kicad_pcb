@@ -582,7 +582,7 @@
 			(uuid "55ba4028-4491-4b6d-aa6b-370b3da2bfd9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/L_Vishay_IHLP-2525.step"
+		(model "${KIPRJMOD}/kicad-library/models/L_Vishay_IHLP-2525.step"
 			(offset
 				(xyz -1.5 5.35 -2.5)
 			)
@@ -6110,7 +6110,7 @@
 			(uuid "83201f1c-efb5-4cfa-8267-7728c0eaba2d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/S20B-PUDSS-1.step"
+		(model "${KIPRJMOD}/kicad-library/models/S20B-PUDSS-1.step"
 			(offset
 				(xyz 9 -5.75 0)
 			)
@@ -10045,7 +10045,7 @@
 			(uuid "59e8abbb-bd41-4c38-a95f-1eb98f0ca365")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/S20B-PUDSS-1.step"
+		(model "${KIPRJMOD}/kicad-library/models/S20B-PUDSS-1.step"
 			(offset
 				(xyz 9 -5.75 0)
 			)

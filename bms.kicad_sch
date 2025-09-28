@@ -19162,7 +19162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "yfs:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
 			(at 156.21 143.51 0)
 			(effects
 				(font
@@ -19401,7 +19401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "yfs:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
 			(at 115.57 43.18 0)
 			(effects
 				(font
@@ -19506,7 +19506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "yfs:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
 			(at 101.6 22.86 0)
 			(effects
 				(font
@@ -23179,7 +23179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "yfs:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
 			(at 223.52 118.11 0)
 			(effects
 				(font
@@ -25220,7 +25220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
+		(property "Footprint" "yfs:TestPoint_2Pads_Pitch2.54mm_Drill1.0mm"
 			(at 43.18 33.02 0)
 			(effects
 				(font

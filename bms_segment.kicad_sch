@@ -14078,7 +14078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "700-MAX11163EUB+ "
+		(property "Dist #" "700-MAX11163EUB+"
 			(at 181.61 144.78 0)
 			(effects
 				(font
@@ -15291,7 +15291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C97954 "
+		(property "Dist #" "C97954"
 			(at 217.17 129.54 0)
 			(effects
 				(font
@@ -23446,7 +23446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C97954 "
+		(property "Dist #" "C97954"
 			(at 226.06 129.54 0)
 			(effects
 				(font
